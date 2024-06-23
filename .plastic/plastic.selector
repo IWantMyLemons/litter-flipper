@@ -1,4 +1,0 @@
-repository "Litter Flipper@unity_8pHRLuCDdms12A@cloud"
-  path "/"
-    br "/main"
-    co "/main"
