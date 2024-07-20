@@ -17,6 +17,7 @@ public class FishDespawning : MonoBehaviour
     [Tooltip("Color to blink when below Blinking Percentage")]
     public Color blinkingColor;
 
+
     float age = 0;
     new SpriteRenderer renderer;
 
@@ -28,6 +29,11 @@ public class FishDespawning : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (age > lifetime) // run out of time
+        {
+            renderer.color = new Color(0.0f, 0.3f, 0.15f);
+            return;
+        }
         age += Time.deltaTime;
         if (age > blinkingPercentage * lifetime)
         {
@@ -36,10 +42,6 @@ public class FishDespawning : MonoBehaviour
                 blinkingColor,
                 MathF.Pow(MathF.Sin(Mathf.Pow(age - blinkingPercentage * lifetime, blinkingAccel) * MathF.PI * blinkingSpeed), 2)
             );
-        }
-        if (age > lifetime)
-        {
-            Destroy(gameObject);
         }
     }
 }
