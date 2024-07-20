@@ -1,4 +1,3 @@
-using System.Diagnostics;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -10,6 +9,8 @@ public class PlayerGrabbing : MonoBehaviour
     public Collider2D grabCollider;
     [Tooltip("Filter for stuff grabbing")]
     public ContactFilter2D contactFilter;
+    [Tooltip("Multiplier on force applied")]
+    public float throwForce;
 
     Transform inHand;
 
@@ -42,6 +43,9 @@ public class PlayerGrabbing : MonoBehaviour
     void DropObject()
     {
         inHand.SetParent(transform.parent);
+        Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        Vector2 throwDirection = mousePosition - inHand.position;
+        inHand.GetComponent<Rigidbody2D>().AddForce(throwDirection * throwForce);
         inHand = null;
     }
 }
