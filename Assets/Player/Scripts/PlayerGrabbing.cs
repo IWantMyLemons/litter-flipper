@@ -38,6 +38,9 @@ public class PlayerGrabbing : MonoBehaviour
         inHand = collision[0].transform;
         inHand.SetParent(transform);
         inHand.localPosition = grabOffset;
+
+        // Velocity set to 0 to stop object from flying off hand
+        collision[0].GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
     void DropObject()
