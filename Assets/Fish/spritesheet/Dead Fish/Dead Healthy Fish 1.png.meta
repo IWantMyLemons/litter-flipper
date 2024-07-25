@@ -108,7 +108,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_0
       rect:
         serializedVersion: 2
-        x: 80
+        x: 78
         y: 3574
         width: 540
         height: 408
@@ -150,7 +150,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_2
       rect:
         serializedVersion: 2
-        x: 1520
+        x: 1518
         y: 3574
         width: 540
         height: 408
@@ -171,7 +171,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_3
       rect:
         serializedVersion: 2
-        x: 2240
+        x: 2238
         y: 3574
         width: 540
         height: 408
@@ -192,7 +192,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_4
       rect:
         serializedVersion: 2
-        x: 2962
+        x: 2958
         y: 3574
         width: 540
         height: 408
@@ -213,7 +213,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_5
       rect:
         serializedVersion: 2
-        x: 80
+        x: 78
         y: 2854
         width: 540
         height: 409
@@ -255,7 +255,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_7
       rect:
         serializedVersion: 2
-        x: 1520
+        x: 1518
         y: 2854
         width: 540
         height: 409
@@ -276,7 +276,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_8
       rect:
         serializedVersion: 2
-        x: 2240
+        x: 2238
         y: 2854
         width: 540
         height: 409
@@ -297,7 +297,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_9
       rect:
         serializedVersion: 2
-        x: 2962
+        x: 2958
         y: 2854
         width: 540
         height: 409
@@ -318,7 +318,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_10
       rect:
         serializedVersion: 2
-        x: 80
+        x: 78
         y: 2134
         width: 540
         height: 408
@@ -360,7 +360,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_12
       rect:
         serializedVersion: 2
-        x: 1520
+        x: 1518
         y: 2134
         width: 540
         height: 408
@@ -381,7 +381,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_13
       rect:
         serializedVersion: 2
-        x: 2240
+        x: 2238
         y: 2134
         width: 540
         height: 408
@@ -402,7 +402,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_14
       rect:
         serializedVersion: 2
-        x: 2962
+        x: 2958
         y: 2134
         width: 540
         height: 408
@@ -423,7 +423,7 @@ TextureImporter:
       name: Dead Healthy Fish 1_15
       rect:
         serializedVersion: 2
-        x: 80
+        x: 78
         y: 1414
         width: 540
         height: 398

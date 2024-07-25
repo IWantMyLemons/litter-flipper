@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3394
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf3958d00a48cb41a4bb88586cec7e8
+      internalID: 712142079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3394
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63822c663ee7cc94389a1ecd5a98341c
+      internalID: -2135551529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_2
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 3394
+        width: 520
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db87f406c04381a4f8e0fa2a5f61a589
+      internalID: 700128115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_3
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3394
+        width: 512
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f5cb5afe78b1594fab1fe0dcb5e6688
+      internalID: -708846004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_4
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3394
+        width: 504
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204d1e768fdf26548868667da41f9d8d
+      internalID: 506766336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2692
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ed5a7b3c3b4d704493e95707a3e2118
+      internalID: 1819554625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_6
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2692
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa05d499e8418245bc71335a0284ef4
+      internalID: -2056686265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_7
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2692
+        width: 520
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734420b22d2e9364da2893e034bed37d
+      internalID: 209061515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_8
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2692
+        width: 512
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b86e1b8b041722f40b18086f6f2758a5
+      internalID: 1303550817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_9
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2692
+        width: 504
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 177e9d9a4f65d0c4189eb06d3601fe00
+      internalID: -316054841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1990
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6146c57f1bdaa64c832216bf24e0d56
+      internalID: -648999249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_11
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1990
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6760fc44d5ddc104e911f459d98aac8a
+      internalID: 168194712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_12
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1990
+        width: 520
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af4ba89ec1b45574d87bf846be80355d
+      internalID: -1403831308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_13
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1990
+        width: 512
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dddb9002c00e3ae41a3d6cacb8b1e77c
+      internalID: 105028443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1990
+        width: 504
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1190ca8d819b05428a742890a920f20
+      internalID: 467809801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1288
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00bd823e3541d404da7684736bc65ed4
+      internalID: 262282468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish 2 (after hospital)_16
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1288
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42f86e4a307dedf41a5b826b640084e1
+      internalID: 1898315780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +471,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Healthy Fish 2 (after hospital)_0: 712142079
+      Healthy Fish 2 (after hospital)_1: -2135551529
+      Healthy Fish 2 (after hospital)_10: -648999249
+      Healthy Fish 2 (after hospital)_11: 168194712
+      Healthy Fish 2 (after hospital)_12: -1403831308
+      Healthy Fish 2 (after hospital)_13: 105028443
+      Healthy Fish 2 (after hospital)_14: 467809801
+      Healthy Fish 2 (after hospital)_15: 262282468
+      Healthy Fish 2 (after hospital)_16: 1898315780
+      Healthy Fish 2 (after hospital)_2: 700128115
+      Healthy Fish 2 (after hospital)_3: -708846004
+      Healthy Fish 2 (after hospital)_4: 506766336
+      Healthy Fish 2 (after hospital)_5: 1819554625
+      Healthy Fish 2 (after hospital)_6: -2056686265
+      Healthy Fish 2 (after hospital)_7: 209061515
+      Healthy Fish 2 (after hospital)_8: 1303550817
+      Healthy Fish 2 (after hospital)_9: -316054841
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

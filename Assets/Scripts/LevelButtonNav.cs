@@ -27,4 +27,9 @@ public class LevelButtonNav : MonoBehaviour
     {
         SceneManager.LoadScene("Level 5");
     }
+
+     public void HomeButton()
+    {
+        SceneManager.LoadScene("Main Menu");
+    }
 }

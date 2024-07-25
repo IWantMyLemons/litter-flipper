@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,364 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_0
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 3394
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d98870dc2cb2c31439b8ee0f1d15f3e1
+      internalID: 2138106029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_1
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 3394
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e87f030f6c3fa34190574eaf825e39a
+      internalID: -1093964672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_2
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 3394
+        width: 520
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 558d1ddb586d12b42a69e0f6e534d5d2
+      internalID: -1072832784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_3
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 3394
+        width: 510
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d85b4fb2a0002f45bfdd078b3aeeec1
+      internalID: -1210822341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_4
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 3394
+        width: 504
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c7d65a6f41d6e469f9a918a172f7d2
+      internalID: -928759285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 2692
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1143eb432d998eb4aa9823f4fe30ad3e
+      internalID: -1193558982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_6
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 2692
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acb76803b8e17e246bb25a9216cd8181
+      internalID: 790734534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_7
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 2692
+        width: 520
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 208c443b0eacdcd4c82dc2c7cfd17471
+      internalID: -143947814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_8
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 2692
+        width: 510
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93c409e1620864c488a240525b562b46
+      internalID: -314360682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_9
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 2692
+        width: 504
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e31e239af7dec240bd8fbf9da4e2bec
+      internalID: -146360225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_10
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1990
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69573f6796f3cc845b3181b8c1a2c48b
+      internalID: 340256442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_11
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1990
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32da6add235da0459c7588d11ab9810
+      internalID: 295172838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_12
+      rect:
+        serializedVersion: 2
+        x: 1558
+        y: 1990
+        width: 520
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc075e3acd2b0fa43a7b2c59ee3c5151
+      internalID: -774866082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_13
+      rect:
+        serializedVersion: 2
+        x: 2280
+        y: 1990
+        width: 510
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ce978bc1f067348b194e7f04993519
+      internalID: -1697136012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_14
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 1990
+        width: 504
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df998696910cd894b8751cb20de5e5b1
+      internalID: -694122721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_15
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 1288
+        width: 506
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f3d3ab4ef3a60947baa98cf8c3f5c71
+      internalID: -2052287127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Healthy Fish Before Hospital_16
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 1288
+        width: 518
+        height: 702
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 862b1ffee404b5349b61d70a34e7fd36
+      internalID: -1325634744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +471,24 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Healthy Fish Before Hospital_0: 2138106029
+      Healthy Fish Before Hospital_1: -1093964672
+      Healthy Fish Before Hospital_10: 340256442
+      Healthy Fish Before Hospital_11: 295172838
+      Healthy Fish Before Hospital_12: -774866082
+      Healthy Fish Before Hospital_13: -1697136012
+      Healthy Fish Before Hospital_14: -694122721
+      Healthy Fish Before Hospital_15: -2052287127
+      Healthy Fish Before Hospital_16: -1325634744
+      Healthy Fish Before Hospital_2: -1072832784
+      Healthy Fish Before Hospital_3: -1210822341
+      Healthy Fish Before Hospital_4: -928759285
+      Healthy Fish Before Hospital_5: -1193558982
+      Healthy Fish Before Hospital_6: 790734534
+      Healthy Fish Before Hospital_7: -143947814
+      Healthy Fish Before Hospital_8: -314360682
+      Healthy Fish Before Hospital_9: -146360225
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

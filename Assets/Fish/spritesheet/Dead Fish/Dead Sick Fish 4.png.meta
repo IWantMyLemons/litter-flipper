@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_11
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1982
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55680094106d20247b00abcf699b5434
+      internalID: -1102836499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_0
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 3422
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50f5cf4746ed1de43897f2d9900ce4e4
+      internalID: 1111169523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_1
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 3422
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 091ed85033e58354fa24e7e71983c4ee
+      internalID: -574868583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_2
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 3422
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d3a638ad9e98498e075c726218a8b
+      internalID: -1899508377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_3
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 3422
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51b7cfd9cd131f84c82e7d6c4f3d8c6b
+      internalID: -1977592363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_4
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 3422
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd996bf30b9b0714c9f250a9ba95e592
+      internalID: 450311038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_5
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 2702
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdbf4cda9018e3e41b013ef469decc36
+      internalID: 1786455669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_6
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 2702
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 244f6d497040c4c44b0b956f06d8f354
+      internalID: 338400713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_7
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 2702
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1174515c851c6f14794f8c7c3c97e01d
+      internalID: 1526489501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_8
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 2702
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88b30d5007bbd64b8c77a27388db7fc
+      internalID: 1643935922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_9
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 2702
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfef00a6794729e4d86c432a54411717
+      internalID: -890542982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_10
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1982
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b43e304011761e74da27d67bf510df8d
+      internalID: -1023448656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_12
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1982
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93a7694b05271624b82854b27f393e1c
+      internalID: -2029061243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_13
+      rect:
+        serializedVersion: 2
+        x: 2238
+        y: 1982
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2602f79b772f2c45b8b42fe59b56f4f
+      internalID: -1241149223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_14
+      rect:
+        serializedVersion: 2
+        x: 2958
+        y: 1982
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b23db691aacb0346b3d5c52e58552a5
+      internalID: 590048624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dead Sick Fish 4_15
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 1262
+        width: 540
+        height: 612
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d16b8cdd689437b48ac77244bcc4a9e5
+      internalID: 1068127444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +450,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Dead Sick Fish 4_0: 1111169523
+      Dead Sick Fish 4_1: -574868583
+      Dead Sick Fish 4_10: -1023448656
+      Dead Sick Fish 4_11: -1102836499
+      Dead Sick Fish 4_12: -2029061243
+      Dead Sick Fish 4_13: -1241149223
+      Dead Sick Fish 4_14: 590048624
+      Dead Sick Fish 4_15: 1068127444
+      Dead Sick Fish 4_2: -1899508377
+      Dead Sick Fish 4_3: -1977592363
+      Dead Sick Fish 4_4: 450311038
+      Dead Sick Fish 4_5: 1786455669
+      Dead Sick Fish 4_6: 338400713
+      Dead Sick Fish 4_7: 1526489501
+      Dead Sick Fish 4_8: 1643935922
+      Dead Sick Fish 4_9: -890542982
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
