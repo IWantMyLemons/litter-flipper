@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class MenuButtonNav : MonoBehaviour
 {
+    [SerializeField] GameObject settingMenu;
+    [SerializeField] GameObject creditMenu;
+
     public void PlayButton()
     {
         SceneManager.LoadScene("Level Select");
@@ -12,12 +15,21 @@ public class MenuButtonNav : MonoBehaviour
 
     public void SettingButton()
     {
-        SceneManager.LoadScene("Level 1");
+       settingMenu.SetActive(true);
+    }
+
+    public void CloseSettingButton()
+    {
+       settingMenu.SetActive(false);
     }
 
     public void CreditsButton()
     {
-        SceneManager.LoadScene("Level 1");
+        creditMenu.SetActive(true);
+    }
+    public void CloseCreditsButton()
+    {
+        creditMenu.SetActive(false);
     }
 }
 

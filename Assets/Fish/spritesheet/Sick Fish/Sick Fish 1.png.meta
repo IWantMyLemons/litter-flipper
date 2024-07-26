@@ -108,10 +108,10 @@ TextureImporter:
       name: Sick Fish 1_3
       rect:
         serializedVersion: 2
-        x: 2256
-        y: 3385
-        width: 580
-        height: 711
+        x: 2160
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: Sick Fish 1_4
       rect:
         serializedVersion: 2
-        x: 2966
-        y: 3385
-        width: 574
-        height: 711
+        x: 2880
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Sick Fish 1_0
       rect:
         serializedVersion: 2
-        x: 82
-        y: 3385
-        width: 596
-        height: 711
+        x: 0
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Sick Fish 1_1
       rect:
         serializedVersion: 2
-        x: 812
-        y: 3385
-        width: 582
-        height: 711
+        x: 720
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: Sick Fish 1_2
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 3385
-        width: 576
-        height: 711
+        x: 1440
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Sick Fish 1_6
       rect:
         serializedVersion: 2
-        x: 812
-        y: 2674
-        width: 582
-        height: 711
+        x: 720
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Sick Fish 1_7
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 2674
-        width: 576
-        height: 711
+        x: 1440
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: Sick Fish 1_8
       rect:
         serializedVersion: 2
-        x: 2256
-        y: 2674
-        width: 580
-        height: 711
+        x: 2160
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Sick Fish 1_9
       rect:
         serializedVersion: 2
-        x: 2966
-        y: 2674
-        width: 574
-        height: 711
+        x: 2880
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Sick Fish 1_5
       rect:
         serializedVersion: 2
-        x: 82
-        y: 2674
-        width: 596
-        height: 711
+        x: 0
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: Sick Fish 1_10
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1963
-        width: 596
-        height: 711
+        x: 0
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Sick Fish 1_11
       rect:
         serializedVersion: 2
-        x: 812
-        y: 1963
-        width: 582
-        height: 711
+        x: 720
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: Sick Fish 1_12
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 1963
-        width: 576
-        height: 711
+        x: 1440
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -378,13 +378,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sick Fish 1_29
+      name: Sick Fish 1_13
       rect:
         serializedVersion: 2
-        x: 2256
-        y: 1963
-        width: 580
-        height: 711
+        x: 2160
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Sick Fish 1_14
       rect:
         serializedVersion: 2
-        x: 2966
-        y: 1963
-        width: 574
-        height: 711
+        x: 2880
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: Sick Fish 1_15
       rect:
         serializedVersion: 2
-        x: 82
-        y: 1252
-        width: 596
-        height: 711
+        x: 0
+        y: 1216
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,7 +456,7 @@ TextureImporter:
       Sick Fish 1_10: 1343216380
       Sick Fish 1_11: -1694677342
       Sick Fish 1_12: 1789700199
-      Sick Fish 1_13: -1637009898
+      Sick Fish 1_13: -1797345716
       Sick Fish 1_14: 2059407287
       Sick Fish 1_15: 729812893
       Sick Fish 1_2: -1228542820
@@ -466,7 +466,6 @@ TextureImporter:
       Sick Fish 1_24: 2138364853
       Sick Fish 1_26: -1079468408
       Sick Fish 1_28: -659349589
-      Sick Fish 1_29: -1797345716
       Sick Fish 1_3: 514678318
       Sick Fish 1_30: -1726598085
       Sick Fish 1_32: 11406114

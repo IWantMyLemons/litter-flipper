@@ -108,10 +108,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_0
       rect:
         serializedVersion: 2
-        x: 116
-        y: 3394
-        width: 506
-        height: 702
+        x: 0
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_1
       rect:
         serializedVersion: 2
-        x: 834
-        y: 3394
-        width: 518
-        height: 702
+        x: 720
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_2
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 3394
-        width: 520
-        height: 702
+        x: 1440
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_3
       rect:
         serializedVersion: 2
-        x: 2280
-        y: 3394
-        width: 510
-        height: 702
+        x: 2160
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_4
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 3394
-        width: 504
-        height: 702
+        x: 2880
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_5
       rect:
         serializedVersion: 2
-        x: 116
-        y: 2692
-        width: 506
-        height: 702
+        x: 0
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_6
       rect:
         serializedVersion: 2
-        x: 834
-        y: 2692
-        width: 518
-        height: 702
+        x: 720
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_7
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 2692
-        width: 520
-        height: 702
+        x: 1440
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_8
       rect:
         serializedVersion: 2
-        x: 2280
-        y: 2692
-        width: 510
-        height: 702
+        x: 2160
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_9
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 2692
-        width: 504
-        height: 702
+        x: 2880
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_10
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1990
-        width: 506
-        height: 702
+        x: 0
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_11
       rect:
         serializedVersion: 2
-        x: 834
-        y: 1990
-        width: 518
-        height: 702
+        x: 720
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_12
       rect:
         serializedVersion: 2
-        x: 1558
-        y: 1990
-        width: 520
-        height: 702
+        x: 1440
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_13
       rect:
         serializedVersion: 2
-        x: 2280
-        y: 1990
-        width: 510
-        height: 702
+        x: 2160
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_14
       rect:
         serializedVersion: 2
-        x: 3000
-        y: 1990
-        width: 504
-        height: 702
+        x: 2880
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: Healthy Fish 2 (before hospital)_15
       rect:
         serializedVersion: 2
-        x: 116
-        y: 1288
-        width: 506
-        height: 702
+        x: 0
+        y: 1216
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}

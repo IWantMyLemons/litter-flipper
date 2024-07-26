@@ -5,25 +5,31 @@ using UnityEngine.SceneManagement;
 
 public class PauseButtonNav : MonoBehaviour
 {
+    [SerializeField] GameObject pauseMenu;
+
     //button navigator for pause button
     public void PauseButton()
     {
-        // SceneManager.LoadScene("Main Menu");
+        pauseMenu.SetActive(true);
+        Time.timeScale = 0;
     }
 
     //button navigator in pause menu scenes
     public void HomeButton()
     {
         SceneManager.LoadScene("Main Menu");
+        Time.timeScale = 1;
     }
 
     public void RetryButton()
     {
-        SceneManager.LoadScene("Main Menu");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
     }
     public void ResumeButton()
     {
-        SceneManager.LoadScene("Main Menu");
+        pauseMenu.SetActive(false);
+        Time.timeScale = 1;
     }
     public void MusicDown()
     {
