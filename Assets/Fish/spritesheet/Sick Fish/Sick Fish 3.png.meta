@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sick Fish 3_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 3385
+        width: 598
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8207d6260d822c449b2d73198ee583b5
+      internalID: -309869531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_1
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 3385
+        width: 584
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54686e012c81c09449248ee2e77f060f
+      internalID: 1009175209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_2
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3385
+        width: 578
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f656f12336f40724e95e2ad6f9f48a03
+      internalID: 1676828633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_3
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 3385
+        width: 582
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792bf071ca73abc42b0db79b116a1e0a
+      internalID: -1859020988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_4
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 3385
+        width: 584
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38888d219f98d944f937e05a657b43a9
+      internalID: -1055915309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 2674
+        width: 598
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f291124ed5da3a14ab622a141762f632
+      internalID: 1718365469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_6
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 2674
+        width: 584
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a918afc469b228344b98db3fb6edc9d0
+      internalID: 318048171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_7
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2674
+        width: 578
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c678d18e459f846a29b9f6c26cff86
+      internalID: 734390373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_8
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 2674
+        width: 582
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f0d0aed5429054bbeb97a8c4da8fee
+      internalID: 354413625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_9
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 2674
+        width: 584
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc2a536b5b439f4f9940f65366c8dcb
+      internalID: 1313938758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_10
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1963
+        width: 598
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a5bc7b601a5cc4fb7223ab0651845f
+      internalID: 1330658916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_11
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 1963
+        width: 584
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8e7cc820f5b1f4ba0d4dc9a6051aae
+      internalID: -1897275419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_12
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1963
+        width: 578
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe08c32ab962b8489e9c1e5b7a553bb
+      internalID: -520903743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_13
+      rect:
+        serializedVersion: 2
+        x: 2256
+        y: 1963
+        width: 582
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77b913a241894034dad88aafd1bcafe0
+      internalID: 425971515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_14
+      rect:
+        serializedVersion: 2
+        x: 2966
+        y: 1963
+        width: 584
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c0d779386a2c74ca926197714e8bdd
+      internalID: -1061174804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sick Fish 3_15
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1252
+        width: 598
+        height: 711
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dec406acb48ebe40842d579476b31b6
+      internalID: 853679745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +450,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sick Fish 3_0: -309869531
+      Sick Fish 3_1: 1009175209
+      Sick Fish 3_10: 1330658916
+      Sick Fish 3_11: -1897275419
+      Sick Fish 3_12: -520903743
+      Sick Fish 3_13: 425971515
+      Sick Fish 3_14: -1061174804
+      Sick Fish 3_15: 853679745
+      Sick Fish 3_2: 1676828633
+      Sick Fish 3_3: -1859020988
+      Sick Fish 3_4: -1055915309
+      Sick Fish 3_5: 1718365469
+      Sick Fish 3_6: 318048171
+      Sick Fish 3_7: 734390373
+      Sick Fish 3_8: 354413625
+      Sick Fish 3_9: 1313938758
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
