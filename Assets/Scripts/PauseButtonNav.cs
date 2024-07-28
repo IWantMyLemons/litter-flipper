@@ -10,6 +10,7 @@ public class PauseButtonNav : MonoBehaviour
     //button navigator for pause button
     public void PauseButton()
     {
+        AudioManager.Instance.PlaySFX("dink");
         pauseMenu.SetActive(true);
         Time.timeScale = 0;
     }

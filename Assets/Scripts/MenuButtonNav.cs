@@ -10,17 +10,19 @@ public class MenuButtonNav : MonoBehaviour
 
     public void PlayButton()
     {
+        AudioManager.Instance.PlaySFX("dink");
         SceneManager.LoadScene("Level Select");
     }
 
     public void SettingButton()
     {
-       settingMenu.SetActive(true);
+        AudioManager.Instance.PlaySFX("dink");
+        settingMenu.SetActive(true);
     }
 
     public void CloseSettingButton()
     {
-       settingMenu.SetActive(false);
+        settingMenu.SetActive(false);
     }
 
     public void CreditsButton()
