@@ -51,3 +51,5 @@ public class VolumeBar : MonoBehaviour
         volumeBarImage.sprite = volumeSprites[spriteIndex];
     }
 }
+
+//note 4 ez ref https://youtu.be/rdX7nhH6jdM?t=399

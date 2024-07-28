@@ -359,7 +359,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26c7a263ffab2794eb1667e39df65f25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicSounds: []
+  musicSounds:
+  - name: Menu
+    clip: {fileID: 8300000, guid: d6e00c30f5da2554da1856e040550854, type: 3}
+  - name: lv1
+    clip: {fileID: 8300000, guid: 9379adabb9a55e343ba55fbff72d32d6, type: 3}
   sfxSounds: []
   loopSounds: []
   musicSource: {fileID: 1206587696}

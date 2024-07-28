@@ -8,6 +8,8 @@ public class LevelButtonNav : MonoBehaviour
     //button navigator in level selection scenes
     public void LevelOne()
     {
+        AudioManager.Instance.StopMusic();
+        AudioManager.Instance.PlayMusic("lv1");
         SceneManager.LoadScene("Level 1");
     }
 

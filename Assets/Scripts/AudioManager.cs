@@ -25,7 +25,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("Theme");
+        PlayMusic("Menu");
         //Theme will play once the game starts. if not needed, delete Start().
 
     }
@@ -47,6 +47,11 @@ public class AudioManager : MonoBehaviour
             musicSource.loop = true;
             musicSource.Play();
         }
+    }
+
+    public void StopMusic()
+    {
+            musicSource.Stop();
     }
 
     public void PlaySFX(string name)

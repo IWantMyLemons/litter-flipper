@@ -17,6 +17,8 @@ public class PauseButtonNav : MonoBehaviour
     //button navigator in pause menu scenes
     public void HomeButton()
     {
+        AudioManager.Instance.StopMusic();
+        AudioManager.Instance.PlayMusic("Menu");
         SceneManager.LoadScene("Main Menu");
         Time.timeScale = 1;
     }
