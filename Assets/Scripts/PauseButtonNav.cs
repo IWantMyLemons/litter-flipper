@@ -34,22 +34,5 @@ public class PauseButtonNav : MonoBehaviour
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
     }
-    public void MusicDown()
-    {
-        // SceneManager.LoadScene("Level 4");
-    }
-    public void MusicUp()
-    {
-        // SceneManager.LoadScene("Level 5");
-    }
-
-    public void SoundDown()
-    {
-        // SceneManager.LoadScene("Main Menu");
-    }
-
-    public void SoundUp()
-    {
-        // SceneManager.LoadScene("Main Menu");
-    }
+    
 }

@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &711520890763321629
+--- !u!1 &2350198167990276711
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,40 +8,39 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 711520890763321626}
-  - component: {fileID: 711520890763321625}
-  - component: {fileID: 711520890763321624}
-  - component: {fileID: 711520890763321631}
-  - component: {fileID: 711520890763321630}
-  m_Layer: 6
-  m_Name: Bottle
+  - component: {fileID: 2350198167990276715}
+  - component: {fileID: 2350198167990276712}
+  - component: {fileID: 2350198167990276713}
+  - component: {fileID: 2350198167990276710}
+  m_Layer: 9
+  m_Name: Inorganic TrashCan
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &711520890763321626
+--- !u!4 &2350198167990276715
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711520890763321629}
+  m_GameObject: {fileID: 2350198167990276711}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.68, y: -4.75, z: 0}
-  m_LocalScale: {x: 0.31, y: 0.31, z: 0.31}
+  m_LocalPosition: {x: -0.87, y: -1.63, z: 0}
+  m_LocalScale: {x: 0.26, y: 0.26, z: 0.26}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &711520890763321625
+--- !u!212 &2350198167990276712
 SpriteRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711520890763321629}
+  m_GameObject: {fileID: 2350198167990276711}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -76,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 158c156c1fab604408dc63db4743be9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1816d940c9408764fba64d749927ef1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -87,56 +86,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &711520890763321624
-Rigidbody2D:
-  serializedVersion: 4
+--- !u!114 &2350198167990276713
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711520890763321629}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 1
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 0
---- !u!70 &711520890763321631
+  m_GameObject: {fileID: 2350198167990276711}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8fb456f4740331541905a8f80d19c9d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  correctTrashCategory: inorganic
+--- !u!70 &2350198167990276710
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711520890763321629}
+  m_GameObject: {fileID: 2350198167990276711}
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.01737303, y: -0.02743544}
-  m_Size: {x: 7.808926, y: 4.380244}
-  m_Direction: 1
---- !u!114 &711520890763321630
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 711520890763321629}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dde9f8fba6683d4e81f7968a8b05c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trashCategories:
-  - trash
-  - plastic
-  - inorganic
+  m_Offset: {x: -0.16901036, y: -1.4648062}
+  m_Size: {x: 13.606675, y: 14.846133}
+  m_Direction: 0

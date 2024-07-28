@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class TrashItem : MonoBehaviour
 {
-    public string trashType; // Assign this in the inspector or via another script
+    public string[] trashCategories; // Assign these in the inspector
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class TrashCan : MonoBehaviour
 {
-    public string correctTrashType;
+    public string correctTrashCategory;
 
     public void CheckCorrectTrash(TrashItem trashItem)
     {
-        if (trashItem.trashType == correctTrashType)
+        foreach (string category in trashItem.trashCategories)
         {
-            // Correct drop
-            GameManager.Instance.CorrectDrop();
-            Destroy(trashItem.gameObject);
+            if (category == correctTrashCategory)
+            {
+                // Correct drop
+                GameManager.Instance.CorrectDrop();
+                Destroy(trashItem.gameObject);
+                return;
+            }
         }
-        else
-        {
-            // Incorrect drop
-            GameManager.Instance.WrongDrop();
-            Destroy(trashItem.gameObject);
-        }
+        // Incorrect drop
+        Destroy(trashItem.gameObject);
+        GameManager.Instance.WrongDrop();
     }
 }
