@@ -23,7 +23,9 @@ public class FishHealing : MonoBehaviour
         if (fishQueue.Count > 0 && Time.time > fishQueue.Peek())
         {
             fishQueue.Dequeue();
-            Instantiate(healedFish, spawnPoint.position, spawnPoint.rotation);
+            GameObject newFish = Instantiate(healedFish, spawnPoint.position, spawnPoint.rotation);
+            newFish.name = "Healed Fish";
+            newFish.GetComponentInChildren<Animator>().SetBool("is_healed", true);
         }
     }
 

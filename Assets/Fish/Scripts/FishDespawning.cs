@@ -17,21 +17,27 @@ public class FishDespawning : MonoBehaviour
     [Tooltip("Color to blink when below Blinking Percentage")]
     public Color blinkingColor;
 
-
+    bool is_alive = true;
     float age = 0;
     new SpriteRenderer renderer;
+    Animator animator;
 
     void Awake()
     {
         renderer = GetComponentInChildren<SpriteRenderer>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (!is_alive) return;
+
         if (age > lifetime) // run out of time
         {
-            renderer.color = new Color(0.0f, 0.3f, 0.15f);
+            renderer.color = Color.white;
+            is_alive = false;
+            animator.SetBool("is_alive", false);
             return;
         }
         age += Time.deltaTime;
