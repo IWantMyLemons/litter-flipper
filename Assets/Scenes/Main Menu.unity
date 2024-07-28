@@ -364,7 +364,9 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: d6e00c30f5da2554da1856e040550854, type: 3}
   - name: lv1
     clip: {fileID: 8300000, guid: 9379adabb9a55e343ba55fbff72d32d6, type: 3}
-  sfxSounds: []
+  sfxSounds:
+  - name: dink
+    clip: {fileID: 8300000, guid: 2a0544ffc3442b4409cf2f7f68d9478c, type: 3}
   loopSounds: []
   musicSource: {fileID: 1206587696}
   sfxSource: {fileID: 1788324078}
