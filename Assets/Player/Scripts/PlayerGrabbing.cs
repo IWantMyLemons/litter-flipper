@@ -1,4 +1,6 @@
 using Unity.VisualScripting;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerGrabbing : MonoBehaviour
@@ -13,6 +15,8 @@ public class PlayerGrabbing : MonoBehaviour
     public float throwForce;
 
     Transform inHand;
+    
+    TrashItem grabbedItem; //trash can open close related
 
     public void Update()
     {
@@ -39,6 +43,25 @@ public class PlayerGrabbing : MonoBehaviour
         inHand.SetParent(transform);
         inHand.localPosition = grabOffset;
 
+        //trash can open close related
+        grabbedItem = inHand.GetComponent<TrashItem>();
+
+        if (grabbedItem != null)
+        {
+            TrashCan[] trashCans = FindObjectsOfType<TrashCan>();
+            foreach (var trashCan in trashCans)
+            {
+                // Deactivate cap only for the correct trash can
+                if (System.Array.Exists(grabbedItem.trashCategories, category => category == trashCan.correctTrashCategory))
+                {
+                    trashCan.DeactivateCap(grabbedItem.trashCategories);
+                }
+                else{
+                    trashCan.ActivateCap();
+                }
+            }
+        }
+
         // Velocity set to 0 to stop object from flying off hand
         collision[0].GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
@@ -48,7 +71,12 @@ public class PlayerGrabbing : MonoBehaviour
         inHand.SetParent(transform.parent);
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 throwDirection = mousePosition - inHand.position;
+        
         inHand.GetComponent<Rigidbody2D>().AddForce(throwDirection * throwForce);
-        inHand = null;
+        inHand = null;  
+        
+        grabbedItem = null;
+        
     }
+
 }

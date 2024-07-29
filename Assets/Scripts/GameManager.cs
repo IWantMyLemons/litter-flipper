@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -5,10 +7,25 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Instance;
 
-    public int lives = 3;
+    private int lives = 3;
 
-    [SerializeField] GameObject[] lifeImages; // Assign these in the Inspector
-    [SerializeField] GameObject[] brokenLifeImages;
+    private int score = 0;
+
+    private int currLevel;
+    
+
+
+    [SerializeField] GameObject[] fullHeart; // Assign these in the Inspector
+    [SerializeField] GameObject[] brokenHeart; // Assign these in the Inspector
+
+    [SerializeField] GameObject winMenu;
+
+    [SerializeField] GameObject winButton;
+    [SerializeField] GameObject winButtonLevel5;
+
+    [SerializeField] GameObject loseMenu;
+
+    // NextLevelNav nextLevelNav;
 
     void Awake()
     {
@@ -18,11 +35,31 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         UpdateUI();
+        loseMenu.SetActive(false);
+        winMenu.SetActive(false);
+        currLevel = LevelButtonNav.currLevel;
+
     }
 
     public void CorrectDrop()
     {
+        score += 1;
         UpdateUI();
+
+        if (score >= 10){
+            // You Win!
+            Debug.Log("You Win!");
+             // You Win Scene Activated
+            winMenu.SetActive(true);
+            if(currLevel == 5){
+                winButton.SetActive(false);
+                winButtonLevel5.SetActive(true);
+            }
+            else{
+                winButtonLevel5.SetActive(false);
+            }
+            Time.timeScale = 0;
+        }
     }
 
     public void WrongDrop()
@@ -34,24 +71,28 @@ public class GameManager : MonoBehaviour
         {
             // Game Over
             Debug.Log("Game Over!");
-            // Implement game over logic here
+            loseMenu.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 
     void UpdateUI()
     {
+        // Update score in log
+        Debug.Log("Score: " + score);
+
         // Update life images
-        for (int i = 0; i < lifeImages.Length; i++)
+        for (int i = 0; i < 3; i++)
         {
             if (i < lives)
             {
-                lifeImages[i].SetActive(true);
-                brokenLifeImages[i].SetActive(false);
+                fullHeart[i].SetActive(true);
+                brokenHeart[i].SetActive(false);
             }
             else
             {
-                lifeImages[i].SetActive(false);
-                brokenLifeImages[i].SetActive(true);
+                fullHeart[i].SetActive(false);
+                brokenHeart[i].SetActive(true);
             }
         }
     }
