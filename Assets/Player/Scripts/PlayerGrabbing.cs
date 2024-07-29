@@ -71,8 +71,6 @@ public class PlayerGrabbing : MonoBehaviour
         inHand.SetParent(transform.parent);
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 throwDirection = mousePosition - inHand.position;
-
-        // StartCoroutine(ReactivateCapsAfterDrop()); //close trash can if player drop trash after 5 sec
         
         inHand.GetComponent<Rigidbody2D>().AddForce(throwDirection * throwForce);
         inHand = null;  
@@ -80,15 +78,5 @@ public class PlayerGrabbing : MonoBehaviour
         grabbedItem = null;
         
     }
-
-    // private IEnumerator ReactivateCapsAfterDrop()
-    // {
-    //     yield return new WaitForSeconds(5);
-    //     TrashCan[] trashCans = FindObjectsOfType<TrashCan>();
-    //     foreach (var trashCan in trashCans)
-    //     {
-    //         trashCan.ActivateCap();
-    //     }
-    // }
 
 }
