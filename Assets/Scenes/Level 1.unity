@@ -1200,6 +1200,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7329602428813024535, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
+      propertyPath: maxThrowForce
+      value: 1000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
 --- !u!1001 &998967664

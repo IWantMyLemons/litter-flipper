@@ -2,6 +2,7 @@ using Unity.VisualScripting;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public class PlayerGrabbing : MonoBehaviour
 {
@@ -13,9 +14,11 @@ public class PlayerGrabbing : MonoBehaviour
     public ContactFilter2D contactFilter;
     [Tooltip("Multiplier on force applied")]
     public float throwForce;
+    [Tooltip("Limit on throw force")]
+    public float maxThrowForce;
 
     Transform inHand;
-    
+
     TrashItem grabbedItem; //trash can open close related
 
     public void Update()
@@ -44,19 +47,18 @@ public class PlayerGrabbing : MonoBehaviour
         inHand.localPosition = grabOffset;
 
         //trash can open close related
-        grabbedItem = inHand.GetComponent<TrashItem>();
-
-        if (grabbedItem != null)
+        if (inHand.TryGetComponent<TrashItem>(out grabbedItem))
         {
             TrashCan[] trashCans = FindObjectsOfType<TrashCan>();
             foreach (var trashCan in trashCans)
             {
                 // Deactivate cap only for the correct trash can
-                if (System.Array.Exists(grabbedItem.trashCategories, category => category == trashCan.correctTrashCategory))
+                if (Array.Exists(grabbedItem.trashCategories, category => category == trashCan.correctTrashCategory))
                 {
                     trashCan.DeactivateCap(grabbedItem.trashCategories);
                 }
-                else{
+                else
+                {
                     trashCan.ActivateCap();
                 }
             }
@@ -71,12 +73,13 @@ public class PlayerGrabbing : MonoBehaviour
         inHand.SetParent(transform.parent);
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 throwDirection = mousePosition - inHand.position;
-        
-        inHand.GetComponent<Rigidbody2D>().AddForce(throwDirection * throwForce);
-        inHand = null;  
-        
+
+        Vector2 throwVector = throwDirection * throwForce;
+        throwVector *= Math.Min(throwVector.magnitude, maxThrowForce) / throwVector.magnitude;
+        inHand.GetComponent<Rigidbody2D>().AddForce(throwVector);
+        inHand = null;
+
         grabbedItem = null;
-        
     }
 
 }
