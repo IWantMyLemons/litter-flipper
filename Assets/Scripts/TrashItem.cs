@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class TrashItem : MonoBehaviour
@@ -10,6 +12,15 @@ public class TrashItem : MonoBehaviour
         if (trashCan != null)
         {
             trashCan.CheckCorrectTrash(this);
+        }
+    }
+    private void OnDestroy()
+    {
+        // Reactivate caps on all trash cans when item is destroyed
+        TrashCan[] trashCans = FindObjectsOfType<TrashCan>();
+        foreach (var trashCan in trashCans)
+        {
+            trashCan.ActivateCap();
         }
     }
 }

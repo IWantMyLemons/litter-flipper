@@ -11,7 +11,10 @@ GameObject:
   - component: {fileID: 5189310960415330932}
   - component: {fileID: 5189310960415330935}
   - component: {fileID: 5189310960415330934}
-  m_Layer: 0
+  - component: {fileID: -5896110160423437100}
+  - component: {fileID: 5644296499852075589}
+  - component: {fileID: 1275784457448241778}
+  m_Layer: 6
   m_Name: Dead Sick Fish 3_0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,3 +109,55 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!70 &-5896110160423437100
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5189310960415330929}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 7.2, y: 7.2}
+  m_Direction: 0
+--- !u!50 &5644296499852075589
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5189310960415330929}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 1
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
+--- !u!114 &1275784457448241778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5189310960415330929}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dde9f8fba6683d4e81f7968a8b05c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashCategories:
+  - organic
+  - trash
