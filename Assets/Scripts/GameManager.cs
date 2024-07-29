@@ -11,8 +11,21 @@ public class GameManager : MonoBehaviour
 
     private int score = 0;
 
+    private int currLevel;
+    
+
+
     [SerializeField] GameObject[] fullHeart; // Assign these in the Inspector
     [SerializeField] GameObject[] brokenHeart; // Assign these in the Inspector
+
+    [SerializeField] GameObject winMenu;
+
+    [SerializeField] GameObject winButton;
+    [SerializeField] GameObject winButtonLevel5;
+
+    [SerializeField] GameObject loseMenu;
+
+    // NextLevelNav nextLevelNav;
 
     void Awake()
     {
@@ -22,6 +35,10 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         UpdateUI();
+        loseMenu.SetActive(false);
+        winMenu.SetActive(false);
+        currLevel = LevelButtonNav.currLevel;
+
     }
 
     public void CorrectDrop()
@@ -33,6 +50,15 @@ public class GameManager : MonoBehaviour
             // You Win!
             Debug.Log("You Win!");
              // You Win Scene Activated
+            winMenu.SetActive(true);
+            if(currLevel == 5){
+                winButton.SetActive(false);
+                winButtonLevel5.SetActive(true);
+            }
+            else{
+                winButtonLevel5.SetActive(false);
+            }
+            Time.timeScale = 0;
         }
     }
 
@@ -45,7 +71,8 @@ public class GameManager : MonoBehaviour
         {
             // Game Over
             Debug.Log("Game Over!");
-            // Game Over Scene Activated
+            loseMenu.SetActive(true);
+            Time.timeScale = 0;
         }
     }
 

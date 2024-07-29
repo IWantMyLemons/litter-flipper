@@ -50,7 +50,9 @@ EdgeCollider2D:
   m_EdgeRadius: 0
   m_Points:
   - {x: -16.777767, y: -7.871022}
-  - {x: -6.7906413, y: -7.9087543}
+  - {x: 0.7546866, y: -7.9459095}
+  - {x: 19.014307, y: -7.9087543}
+  - {x: -7.152773, y: -7.696994}
   - {x: -8.214935, y: -6.614176}
   - {x: -9.98693, y: -4.775794}
   - {x: -11.315698, y: -3.9176538}
@@ -60,7 +62,8 @@ EdgeCollider2D:
   - {x: -4.64597, y: 7.784073}
   - {x: -2.5261545, y: 8.636707}
   - {x: -2.1161516, y: 10.83176}
-  - {x: 1.7182627, y: 12.030172}
+  - {x: 2.4262455, y: 11.847008}
+  - {x: 18.764118, y: 12.0542555}
   - {x: -16.752184, y: 12.039044}
   - {x: -16.751038, y: -7.8618364}
   m_AdjacentStartPoint: {x: 0, y: 0}
@@ -79,4 +82,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8fb456f4740331541905a8f80d19c9d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  correctTrashType: fish
+  correctTrashCategory: 
+  trashCap: {fileID: 0}
+  warningText: {fileID: 0}
