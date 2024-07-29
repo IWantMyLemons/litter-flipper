@@ -127,7 +127,7 @@ MonoBehaviour:
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  throwForce: 100
+  throwVelocity: 15
 --- !u!70 &6173893910423155620
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

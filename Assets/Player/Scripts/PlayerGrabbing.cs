@@ -12,10 +12,8 @@ public class PlayerGrabbing : MonoBehaviour
     public Collider2D grabCollider;
     [Tooltip("Filter for stuff grabbing")]
     public ContactFilter2D contactFilter;
-    [Tooltip("Multiplier on force applied")]
-    public float throwForce;
-    [Tooltip("Limit on throw force")]
-    public float maxThrowForce;
+    [Tooltip("Velocity applied to objects")]
+    public float throwVelocity;
 
     Transform inHand;
 
@@ -74,9 +72,8 @@ public class PlayerGrabbing : MonoBehaviour
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 throwDirection = mousePosition - inHand.position;
 
-        Vector2 throwVector = throwDirection * throwForce;
-        throwVector *= Math.Min(throwVector.magnitude, maxThrowForce) / throwVector.magnitude;
-        inHand.GetComponent<Rigidbody2D>().AddForce(throwVector);
+        Vector2 throwVector = throwDirection.normalized * throwVelocity;
+        inHand.GetComponent<Rigidbody2D>().velocity = throwVector;
         inHand = null;
 
         grabbedItem = null;
