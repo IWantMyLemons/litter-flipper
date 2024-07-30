@@ -26,7 +26,7 @@ public class LevelButtonNav : MonoBehaviour
 
     void Start()
     {
-        ResetProgress();
+        // ResetProgress();
 
         // Initialize the first level as unlocked if not already done
         if (!PlayerPrefs.HasKey("Level1"))
