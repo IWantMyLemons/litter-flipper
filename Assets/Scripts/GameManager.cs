@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject loseMenu;
 
-    // NextLevelNav nextLevelNav;
+    public BookNavButton bookNavButton;
 
     void Awake()
     {
@@ -38,6 +38,14 @@ public class GameManager : MonoBehaviour
         loseMenu.SetActive(false);
         winMenu.SetActive(false);
         currLevel = LevelButtonNav.currLevel;
+        if (bookNavButton != null)
+        {
+            bookNavButton.BookOpenButton();
+        }
+        else
+        {
+            Debug.LogError("BookNavButton is not assigned in the Inspector");
+        }
 
     }
 

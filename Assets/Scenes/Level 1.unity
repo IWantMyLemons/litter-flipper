@@ -1388,6 +1388,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1988908618983140638, guid: fe57c78207beedb4faead4d879241651, type: 3}
   m_PrefabInstance: {fileID: 1238875613}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1378157966 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4746779629779693208, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
+  m_PrefabInstance: {fileID: 3654871335888395702}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9864304f301575498f5b0fc6cb41021, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1386119234
 GameObject:
   m_ObjectHideFlags: 0
@@ -2624,6 +2635,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1063918329697753405, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
+      propertyPath: bookNavButton
+      value: 
+      objectReference: {fileID: 1378157966}
     - target: {fileID: 3654871335789737617, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2722,7 +2737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3654871336779268060, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
       propertyPath: m_Text
-      value: LEVEL 2
+      value: LEVEL 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6145086013009124093, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6254690379976639788, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
       propertyPath: m_SizeDelta.x
