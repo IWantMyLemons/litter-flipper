@@ -13,7 +13,7 @@ public class FishHealing : MonoBehaviour
     [Tooltip("where new fish spawn")]
     public Transform spawnPoint;
 
-    static readonly int capacity = 1;
+    static readonly int capacity = 3;
 
     readonly Queue<float> fishQueue = new(capacity);
 
