@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Collections;
 using UnityEngine;
 
 public class FishDespawning : MonoBehaviour
@@ -17,7 +18,7 @@ public class FishDespawning : MonoBehaviour
     [Tooltip("Color to blink when below Blinking Percentage")]
     public Color blinkingColor;
 
-    bool is_alive = true;
+    public bool is_alive = true;
     float age = 0;
     new SpriteRenderer renderer;
     Animator animator;

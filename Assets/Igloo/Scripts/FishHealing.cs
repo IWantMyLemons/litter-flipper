@@ -26,6 +26,10 @@ public class FishHealing : MonoBehaviour
             GameObject newFish = Instantiate(healedFish, spawnPoint.position, spawnPoint.rotation);
             newFish.name = "Healed Fish";
             newFish.GetComponentInChildren<Animator>().SetBool("is_healed", true);
+
+            TrashItem trashItem = newFish.AddComponent<TrashItem>();
+            trashItem.trashCategories = new string[1];
+            trashItem.trashCategories[0] = "sea";
         }
     }
 
@@ -33,7 +37,8 @@ public class FishHealing : MonoBehaviour
     {
         if (collider.name.ContainsInsensitive("fish")) // honestly a dumb way of checking for fish
         {
-            if (fishQueue.Count < capacity)
+            if (fishQueue.Count < capacity
+            && collider.GetComponent<FishDespawning>().is_alive)
             {
                 Destroy(collider.gameObject);
                 fishQueue.Enqueue(Time.time + healingTime);
