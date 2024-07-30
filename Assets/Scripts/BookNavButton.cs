@@ -50,6 +50,7 @@ public class BookNavButton : MonoBehaviour
         darkPanel.SetActive(true);
 
         Time.timeScale = 0;
+        AudioManager.Instance.PlaySFX("book");
     }
 
     public void BookCloseButton()
@@ -69,6 +70,7 @@ public class BookNavButton : MonoBehaviour
         nextPageButton.SetActive(false);
         darkPanel.SetActive(false);
         Time.timeScale = 1;
+        AudioManager.Instance.PlaySFX("koob");
     }
 
     public void InfoButton()
@@ -96,6 +98,7 @@ public class BookNavButton : MonoBehaviour
 
         pageNum = 0;
         Time.timeScale = 0;
+        AudioManager.Instance.PlaySFX("page");
     }
 
     public void TrashInfoButton()
@@ -123,6 +126,7 @@ public class BookNavButton : MonoBehaviour
 
         pageNum = 0;
         Time.timeScale = 0;
+        AudioManager.Instance.PlaySFX("page");
     }
 
     public void FishInfoButton()
@@ -150,6 +154,7 @@ public class BookNavButton : MonoBehaviour
 
         pageNum = 0;
         Time.timeScale = 0;
+        AudioManager.Instance.PlaySFX("page");
     }
 
     public void NextPageButton()

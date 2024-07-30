@@ -367,6 +367,14 @@ MonoBehaviour:
   sfxSounds:
   - name: dink
     clip: {fileID: 8300000, guid: 2a0544ffc3442b4409cf2f7f68d9478c, type: 3}
+  - name: clop
+    clip: {fileID: 8300000, guid: 05da71dd62180404d9bc6b498ae0e982, type: 3}
+  - name: page
+    clip: {fileID: 8300000, guid: 6a10283d72d10fe4eb904be7de47af70, type: 3}
+  - name: book
+    clip: {fileID: 8300000, guid: dcfa162ed0a6c934c8ac8214c07bd076, type: 3}
+  - name: koob
+    clip: {fileID: 8300000, guid: 63b5253e952a55d40adb57101b7664c3, type: 3}
   loopSounds: []
   musicSource: {fileID: 1206587696}
   sfxSource: {fileID: 1788324078}
@@ -421,6 +429,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeBarImage: {fileID: 426432116}
+  audioSource: {fileID: 1788324078}
   volumeSprites:
   - {fileID: -1410807248, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
   - {fileID: -1314589472, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
@@ -872,6 +881,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeBarImage: {fileID: 665181658}
+  audioSource: {fileID: 1206587696}
   volumeSprites:
   - {fileID: -1410807248, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
   - {fileID: -1314589472, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
@@ -1463,7 +1473,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2103,7 +2113,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -2440,7 +2450,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0

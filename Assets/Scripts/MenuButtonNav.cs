@@ -22,6 +22,7 @@ public class MenuButtonNav : MonoBehaviour
 
     public void CloseSettingButton()
     {
+        AudioManager.Instance.PlaySFX("clop");
         settingMenu.SetActive(false);
     }
 

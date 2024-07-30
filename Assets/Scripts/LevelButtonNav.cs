@@ -96,7 +96,7 @@ public class LevelButtonNav : MonoBehaviour
 
     public void HomeButton()
     {
-        AudioManager.Instance.PlaySFX("dink");
+        AudioManager.Instance.PlaySFX("clop");
         SceneManager.LoadScene("Main Menu");
     }
 
