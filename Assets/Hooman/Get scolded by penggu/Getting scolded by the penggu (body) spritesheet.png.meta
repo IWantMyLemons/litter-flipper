@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e2eee7d94fc3f149b59013e178940df
+      internalID: -1433007072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7c0fb23c842a3647b14a4f47b027488
+      internalID: 1178303639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f0a833fd42919429e98140dbdbdd83
+      internalID: 561058104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aad467c45d01e394babca07c997578aa
+      internalID: -62079175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08160c1257971744992ce3af5e1b09ff
+      internalID: -945248851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb0f84fce48d104c85871e50f2bccda
+      internalID: 297776100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b03063e5368ec484f96e29611443c1dd
+      internalID: -2013083322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e7454ea686d0744ea4bac8425e02a47
+      internalID: 1127863189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb51afe699dcfe4d86e4f3861567c3d
+      internalID: -174127245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2a876d679378a14e989d9db3599c48a
+      internalID: -1572597404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 567a497371e9f5b42883cfd72954dffe
+      internalID: -1100469474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: add9f6a44f611ba4a9dd833f2f3c3d70
+      internalID: -591146154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e8aee7c1263ae4a8f3467cd314fa8e
+      internalID: 1378712927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703f590417895b9419811d49d458fd01
+      internalID: -50071974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1864d2906e9c7cd4398c75a91821dfde
+      internalID: -1683963059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Getting scolded by the penggu (body) spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1216
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6baa47e06623948b08b5a910c67f52
+      internalID: -1056939122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +450,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Getting scolded by the penggu (body) spritesheet_0: -1433007072
+      Getting scolded by the penggu (body) spritesheet_1: 1178303639
+      Getting scolded by the penggu (body) spritesheet_10: -1100469474
+      Getting scolded by the penggu (body) spritesheet_11: -591146154
+      Getting scolded by the penggu (body) spritesheet_12: 1378712927
+      Getting scolded by the penggu (body) spritesheet_13: -50071974
+      Getting scolded by the penggu (body) spritesheet_14: -1683963059
+      Getting scolded by the penggu (body) spritesheet_15: -1056939122
+      Getting scolded by the penggu (body) spritesheet_2: 561058104
+      Getting scolded by the penggu (body) spritesheet_3: -62079175
+      Getting scolded by the penggu (body) spritesheet_4: -945248851
+      Getting scolded by the penggu (body) spritesheet_5: 297776100
+      Getting scolded by the penggu (body) spritesheet_6: -2013083322
+      Getting scolded by the penggu (body) spritesheet_7: 1127863189
+      Getting scolded by the penggu (body) spritesheet_8: -174127245
+      Getting scolded by the penggu (body) spritesheet_9: -1572597404
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

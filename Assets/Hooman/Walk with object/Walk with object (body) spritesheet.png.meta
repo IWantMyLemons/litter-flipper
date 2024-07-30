@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -103,7 +103,679 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7d69bd4688e694e86b743817eb560f
+      internalID: 147345466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_1
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f120811ee238c654eb1bd906a883bb7f
+      internalID: 1763331825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_2
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f848f01f613fe344a99ab3f1f1cfb218
+      internalID: 1210007504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_3
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11d35f14ac83b66448cb3c55c39d7dee
+      internalID: -310228641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_4
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a43e5385994be42a2abf834e4cab93
+      internalID: -1518953557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_5
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aba5dec206b3a644a3059cffdd7f9a7
+      internalID: -1258306707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_6
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da037e19430d1034a97e1adcb88f9b00
+      internalID: 1211351404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_7
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d215046f25eda8c4bbac0c3f0bd0fcd9
+      internalID: 928125476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_8
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6803e9619ce3a7f4a905d11dd2b0d9c5
+      internalID: -1662978848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_9
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56bb4d37b747c48a6035de6816c0e6
+      internalID: 1178552904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_10
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 3376
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7cca69e820e144cb1eae07ce3dd073
+      internalID: 1926580620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eadbf0e59f8c564da384fdcacc45c6f
+      internalID: -1377255343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_12
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c9011b49315c9b4ca1cd9898527927b
+      internalID: 1576998312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_13
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c93d396427779614c8ec2ff1af2aaf6c
+      internalID: 371853048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_14
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca40867310e79c1419e3c74f368e6622
+      internalID: 551885195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_15
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4311da7d18a23c4995748c66ea45dc6
+      internalID: -2135439759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_16
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3c244ffb6e74074f8f16714258d094c
+      internalID: 239248089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_17
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b330d51abda6b84dbbc20b2bb4f54a4
+      internalID: -1406532179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_18
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1921fafc26a1049850e020ac6f3473
+      internalID: 761652071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_19
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8274e51647d9bf14992cdf53b5a9b66c
+      internalID: 1061540362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_20
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3754328aa6beea40bfa7d6e32b3f721
+      internalID: -1962436914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_21
+      rect:
+        serializedVersion: 2
+        x: 7200
+        y: 2656
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec76b1decc7b4a34fb6de10f8cf2975a
+      internalID: 1475395361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d8565854417654893e735afe560e7f
+      internalID: -662422920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_23
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb0978d4c4b992478e9564e15a4f146
+      internalID: -610636830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_24
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ab3e0aa83c97ea48bcf41a5b8d6d3de
+      internalID: -402056577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_25
+      rect:
+        serializedVersion: 2
+        x: 2160
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68984b2bd250c0b4586c197b26bb42aa
+      internalID: -1554021384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_26
+      rect:
+        serializedVersion: 2
+        x: 2880
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3332796145513d4ead491868987b001
+      internalID: 573114480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_27
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 597138b9e7a51e043ad8f89d99abe4a7
+      internalID: 1681617177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_28
+      rect:
+        serializedVersion: 2
+        x: 4320
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cfe90aab8092604bbeb62b58ff76bad
+      internalID: -1449156479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_29
+      rect:
+        serializedVersion: 2
+        x: 5040
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d62ce4bd48e8a0142ac12ca05a0ae759
+      internalID: 788956330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_30
+      rect:
+        serializedVersion: 2
+        x: 5760
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d247fe98f9dc1f4f823d01d836c653e
+      internalID: 2006378271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk with object (body) spritesheet_31
+      rect:
+        serializedVersion: 2
+        x: 6480
+        y: 1936
+        width: 720
+        height: 720
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc4e75b6fa465f44ba30e4d3d219b12
+      internalID: 1199923412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +786,39 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walk with object (body) spritesheet_0: 147345466
+      Walk with object (body) spritesheet_1: 1763331825
+      Walk with object (body) spritesheet_10: 1926580620
+      Walk with object (body) spritesheet_11: -1377255343
+      Walk with object (body) spritesheet_12: 1576998312
+      Walk with object (body) spritesheet_13: 371853048
+      Walk with object (body) spritesheet_14: 551885195
+      Walk with object (body) spritesheet_15: -2135439759
+      Walk with object (body) spritesheet_16: 239248089
+      Walk with object (body) spritesheet_17: -1406532179
+      Walk with object (body) spritesheet_18: 761652071
+      Walk with object (body) spritesheet_19: 1061540362
+      Walk with object (body) spritesheet_2: 1210007504
+      Walk with object (body) spritesheet_20: -1962436914
+      Walk with object (body) spritesheet_21: 1475395361
+      Walk with object (body) spritesheet_22: -662422920
+      Walk with object (body) spritesheet_23: -610636830
+      Walk with object (body) spritesheet_24: -402056577
+      Walk with object (body) spritesheet_25: -1554021384
+      Walk with object (body) spritesheet_26: 573114480
+      Walk with object (body) spritesheet_27: 1681617177
+      Walk with object (body) spritesheet_28: -1449156479
+      Walk with object (body) spritesheet_29: 788956330
+      Walk with object (body) spritesheet_3: -310228641
+      Walk with object (body) spritesheet_30: 2006378271
+      Walk with object (body) spritesheet_31: 1199923412
+      Walk with object (body) spritesheet_4: -1518953557
+      Walk with object (body) spritesheet_5: -1258306707
+      Walk with object (body) spritesheet_6: 1211351404
+      Walk with object (body) spritesheet_7: 928125476
+      Walk with object (body) spritesheet_8: -1662978848
+      Walk with object (body) spritesheet_9: 1178552904
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
