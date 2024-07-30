@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2448156910499245066}
   - component: {fileID: 4436087833476539521}
   - component: {fileID: 1214220369455352784}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Fish
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -52,6 +52,7 @@ MonoBehaviour:
   blinkingSpeed: 1
   blinkingAccel: 1.4
   blinkingColor: {r: 0.89433956, g: 0.1940547, b: 0.1940547, a: 1}
+  is_alive: 1
 --- !u!70 &4436087833476539521
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -162,7 +163,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 15
   m_Sprite: {fileID: -466826196, guid: 1c73d876ee513a843944eee04ebcec19, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

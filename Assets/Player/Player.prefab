@@ -61,8 +61,7 @@ GameObject:
   - component: {fileID: 7329602428813024535}
   - component: {fileID: 6173893910423155620}
   - component: {fileID: 217907775872643787}
-  - component: {fileID: 3186698171489098660}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -111,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686e44b3ee0f2d744ad165c008d1ed58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabOffset: {x: 0, y: 1.3}
+  grabOffset: {x: 0, y: 0}
   grabCollider: {fileID: 5743144595481996717}
   contactFilter:
     useTriggers: 1
@@ -122,12 +121,12 @@ MonoBehaviour:
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 64
+      m_Bits: 128
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
     maxNormalAngle: 0
-  throwVelocity: 15
+  throwVelocity: 25
 --- !u!70 &6173893910423155620
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -165,27 +164,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!95 &3186698171489098660
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2935537936626651501}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b765a5cc2b13adf488d1e0652981be0d, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &3313284877473572725
 GameObject:
   m_ObjectHideFlags: 0

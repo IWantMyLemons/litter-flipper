@@ -7,10 +7,12 @@ public class PlayerMovement : MonoBehaviour
 
     Rigidbody2D rb;
     Vector2 inputDirection;
+    Animator animator;
 
     public void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        animator = GetComponentInChildren<Animator>();
     }
 
     public void Update()
@@ -22,9 +24,15 @@ public class PlayerMovement : MonoBehaviour
 
     public void FixedUpdate()
     {
-        if (inputDirection.magnitude >= float.Epsilon)
+        if (inputDirection.magnitude >= 1e-3)
         {
+            transform.localScale = new Vector3(inputDirection.x > 0 ? 1.0f : -1.0f, 1.0f, 1.0f);
+            animator.SetBool("isSliding", true);
             rb.transform.Translate(Time.fixedDeltaTime * movementSpeed * inputDirection);
+        }
+        else
+        {
+            animator.SetBool("isSliding", false);
         }
     }
 

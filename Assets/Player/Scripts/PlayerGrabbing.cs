@@ -16,11 +16,19 @@ public class PlayerGrabbing : MonoBehaviour
     public float throwVelocity;
 
     Transform inHand;
+    Animator animator;
 
     TrashItem grabbedItem; //trash can open close related
 
+    public void Awake()
+    {
+        animator = GetComponentInChildren<Animator>();
+    }
+
     public void Update()
     {
+        animator.SetBool("isHoldingObject", !inHand.IsUnityNull());
+
         if (Input.GetButtonDown("Grab"))
         {
             if (inHand.IsUnityNull())
