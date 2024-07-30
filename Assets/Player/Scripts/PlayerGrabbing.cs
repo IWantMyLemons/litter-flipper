@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Linq;
 
 public class PlayerGrabbing : MonoBehaviour
 {
@@ -44,11 +45,23 @@ public class PlayerGrabbing : MonoBehaviour
 
     void GrabObject()
     {
-        Collider2D[] collision = new Collider2D[1];
-        bool found_object = grabCollider.OverlapCollider(contactFilter, collision) == 1;
-        if (!found_object) return;
+        Collider2D[] collisions = new Collider2D[5];
+        int n_collisions = grabCollider.OverlapCollider(contactFilter, collisions);
+        if (n_collisions == 0) return;
 
-        inHand = collision[0].transform;
+        Collider2D closest = collisions[0];
+        for (int i = 1; i < n_collisions; i++)
+        {
+            Vector3 curr_distance = collisions[i].transform.position - transform.position;
+            Vector3 closest_distance = closest.transform.position - transform.position;
+
+            if (curr_distance.magnitude < closest_distance.magnitude)
+            {
+                closest = collisions[i];
+            }
+        }
+
+        inHand = closest.transform;
         inHand.SetParent(transform);
         inHand.localPosition = grabOffset;
 
@@ -71,7 +84,7 @@ public class PlayerGrabbing : MonoBehaviour
         }
 
         // Velocity set to 0 to stop object from flying off hand
-        collision[0].GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        closest.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
     }
 
     void DropObject()
