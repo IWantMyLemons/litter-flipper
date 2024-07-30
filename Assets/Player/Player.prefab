@@ -110,7 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 686e44b3ee0f2d744ad165c008d1ed58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  grabOffset: {x: 0, y: 0}
+  grabOffset: {x: 0, y: -0.3}
   grabCollider: {fileID: 5743144595481996717}
   contactFilter:
     useTriggers: 1

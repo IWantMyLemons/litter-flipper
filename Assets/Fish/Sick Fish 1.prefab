@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4436087833476539521}
   - component: {fileID: 1214220369455352784}
   m_Layer: 7
-  m_Name: Fish
+  m_Name: Sick Fish 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -164,7 +164,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -466826196, guid: 1c73d876ee513a843944eee04ebcec19, type: 3}
+  m_Sprite: {fileID: 970258228, guid: ba0e6b9329e7f794ab48487765dd6b95, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

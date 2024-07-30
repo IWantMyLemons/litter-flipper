@@ -148,7 +148,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   healingTime: 3
-  healedFish: {fileID: 3239664633109041322, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+  healedFish1: {fileID: 3384378377927035653, guid: 94d98a62111e2b148badc326ee1620e9, type: 3}
+  healedFish2: {fileID: 163740410769642782, guid: 7b0752d2e02c949418eb8ae61fbf5a6d, type: 3}
   spawnPoint: {fileID: 6576134855462231691}
 --- !u!1 &5497512427452811558
 GameObject:

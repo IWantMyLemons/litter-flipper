@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &6226353993320672110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1548567789859381113, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3239664633109041322, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_Name
+      value: Sick Fish 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7186655323946062071, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 67b1b1aa63336504798b80d37910829e, type: 2}
+    - target: {fileID: 8746855978094249726, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -309869531, guid: 25c35085d5bc4d04dbf144addd4c81de, type: 3}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
