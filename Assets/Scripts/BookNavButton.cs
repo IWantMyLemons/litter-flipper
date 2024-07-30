@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class BookNavButton : MonoBehaviour
 {
+    public static BookNavButton Instance;
     [SerializeField] GameObject bookCover;
     [SerializeField] GameObject infoPage;
     [SerializeField] GameObject trashInfoPage;
@@ -25,6 +26,11 @@ public class BookNavButton : MonoBehaviour
     [SerializeField] GameObject[] fishPages;
 
     private int pageNum = 0;
+    void Awake()
+    {
+        Instance = this;
+    }
+
 
     public void BookOpenButton()
     {

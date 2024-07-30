@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 public class PauseButtonNav : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
+    private int currLevel;
+    private int nextLevel;
 
     //button navigator for pause button
     public void PauseButton()
@@ -33,6 +35,16 @@ public class PauseButtonNav : MonoBehaviour
     {
         pauseMenu.SetActive(false);
         Time.timeScale = 1;
+    }
+
+    public void NextLevelButton()
+    {
+        currLevel = LevelButtonNav.Instance.GetCurrLevel();
+        nextLevel = currLevel + 1;
+        if (PlayerPrefs.GetInt("Level" + nextLevel, 0) == 1)
+        {
+            SceneManager.LoadScene("Level " + nextLevel);
+        }
     }
     
 }

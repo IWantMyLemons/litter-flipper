@@ -2083,7 +2083,6 @@ GameObject:
   - component: {fileID: 4115398013175402210}
   - component: {fileID: 4249774736133458081}
   - component: {fileID: 7911948307419905109}
-  - component: {fileID: 2733329971118925087}
   m_Layer: 5
   m_Name: Next Level Button
   m_TagString: Untagged
@@ -2193,9 +2192,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2733329971118925087}
-        m_TargetAssemblyTypeName: NextLevelNav, Assembly-CSharp
-        m_MethodName: 
+      - m_Target: {fileID: 6183833646802020838}
+        m_TargetAssemblyTypeName: PauseButtonNav, Assembly-CSharp
+        m_MethodName: NextLevelButton
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2205,18 +2204,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!114 &2733329971118925087
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3007038870647304046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6ce9201b54c8aa2468f01d8c549ea8bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3140329549388596207
 GameObject:
   m_ObjectHideFlags: 0
@@ -2497,6 +2484,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 3654871337058291528}
+  levelButtonNav: {fileID: 0}
 --- !u!1 &3432327560285748650
 GameObject:
   m_ObjectHideFlags: 0
@@ -3069,6 +3057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
+  levelButtonNav: {fileID: 0}
 --- !u!1 &3654871335607621167
 GameObject:
   m_ObjectHideFlags: 0
@@ -8390,6 +8379,10 @@ PrefabInstance:
       propertyPath: bookNavButton
       value: 
       objectReference: {fileID: 4746779629779693208}
+    - target: {fileID: 2705707569368885420, guid: c88627cdfdcb17749b402d2914ecb24c, type: 3}
+      propertyPath: levelButtonNav
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2705707569368885420, guid: c88627cdfdcb17749b402d2914ecb24c, type: 3}
       propertyPath: winButtonLevel5
       value: 

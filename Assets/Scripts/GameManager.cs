@@ -25,8 +25,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject loseMenu;
 
-    public BookNavButton bookNavButton;
-
     void Awake()
     {
         Instance = this;
@@ -38,15 +36,7 @@ public class GameManager : MonoBehaviour
         loseMenu.SetActive(false);
         winMenu.SetActive(false);
         currLevel = LevelButtonNav.currLevel;
-        if (bookNavButton != null)
-        {
-            bookNavButton.BookOpenButton();
-        }
-        else
-        {
-            Debug.LogError("BookNavButton is not assigned in the Inspector");
-        }
-
+        BookNavButton.Instance.BookOpenButton();
     }
 
     public void CorrectDrop()
@@ -54,12 +44,13 @@ public class GameManager : MonoBehaviour
         score += 1;
         UpdateUI();
 
-        if (score >= 10){
+        if (score >= 1){
             // You Win!
             Debug.Log("You Win!");
              // You Win Scene Activated
+            LevelButtonNav.Instance.UnlockNextLevel();
             winMenu.SetActive(true);
-            if(currLevel == 5){
+            if(LevelButtonNav.Instance.GetCurrLevel() == 5){
                 winButton.SetActive(false);
                 winButtonLevel5.SetActive(true);
             }
