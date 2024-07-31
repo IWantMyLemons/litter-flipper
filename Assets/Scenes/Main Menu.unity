@@ -379,6 +379,8 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: dcfa162ed0a6c934c8ac8214c07bd076, type: 3}
   - name: koob
     clip: {fileID: 8300000, guid: 63b5253e952a55d40adb57101b7664c3, type: 3}
+  - name: bong
+    clip: {fileID: 8300000, guid: c4706be8690e0be4183e3792a4095586, type: 3}
   loopSounds: []
   musicSource: {fileID: 1206587696}
   sfxSource: {fileID: 1788324078}
