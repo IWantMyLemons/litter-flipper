@@ -4,24 +4,39 @@ using UnityEngine.UI;
 public class VolumeBar : MonoBehaviour
 {
     public Image volumeBarImage; // Assign the volume bar Image component in the Inspector
-    //public AudioSource audioSource; // Assign your AudioSource in the Inspector
+    // public AudioSource audioSource; // Assign your AudioSource in the Inspector
+    public enum VolumeType { Music, SFX }
+    public VolumeType volumeType;
     public Sprite[] volumeSprites; // Assign the volume sprites in the Inspector
 
-    private const float INITIAL_VOLUME_LEVEL = 0.5f;
+    // private const float INITIAL_VOLUME_LEVEL = 0.5f;
     private const float VOLUME_STEP = 0.1f;
 
-    private float volumeLevel = INITIAL_VOLUME_LEVEL; // initial volume level
-
+    // private float volumeLevel = INITIAL_VOLUME_LEVEL; // initial volume level
+    private float volumeLevel;
     private void Start()
     {
         // Initialize the audio source volume
-        if (gameObject.name == "Music Bar"){
-            AudioManager.Instance.musicSource.volume = volumeLevel;
-            UpdateVolumeBar();
-        } else if (gameObject.name == "Sound Bar"){
-            AudioManager.Instance.sfxSource.volume = volumeLevel;
+        if (AudioManager.Instance != null)
+        {
+            if (volumeType == VolumeType.Music)
+            {
+                volumeLevel = AudioManager.Instance.musicSource.volume;
+            }
+            else if (volumeType == VolumeType.SFX)
+            {
+                volumeLevel = AudioManager.Instance.sfxSource.volume;
+            }
             UpdateVolumeBar();
         }
+
+        // if (gameObject.name == "Music Bar"){
+        //     AudioManager.Instance.musicSource.volume = volumeLevel;
+        //     UpdateVolumeBar();
+        // } else if (gameObject.name == "Sound Bar"){
+        //     AudioManager.Instance.sfxSource.volume = volumeLevel;
+        //     UpdateVolumeBar();
+        // }
     }
 
     public void IncreaseVolume()
@@ -42,13 +57,26 @@ public class VolumeBar : MonoBehaviour
 
     private void SetVolume(float level)
     {
-        if (gameObject.name == "Music Bar"){
-            AudioManager.Instance.musicSource.volume = level;
-            UpdateVolumeBar();
-        } else if (gameObject.name == "Sound Bar"){
-            AudioManager.Instance.sfxSource.volume = level;
+        if (AudioManager.Instance != null)
+        {
+            if (volumeType == VolumeType.Music)
+            {
+                AudioManager.Instance.MusicVolume(level);
+            }
+            else if (volumeType == VolumeType.SFX)
+            {
+                AudioManager.Instance.FXVolume(level);
+            }
             UpdateVolumeBar();
         }
+
+        // if (gameObject.name == "Music Bar"){
+        //     AudioManager.Instance.musicSource.volume = level;
+        //     UpdateVolumeBar();
+        // } else if (gameObject.name == "Sound Bar"){
+        //     AudioManager.Instance.sfxSource.volume = level;
+        //     UpdateVolumeBar();
+        // }
     }
 
     private void UpdateVolumeBar()

@@ -75,11 +75,13 @@ public class TrashCan : MonoBehaviour
                 {
                     Debug.Log("igloo or sea");
                     StartCoroutine(ShowWarning("--- wrong place! ---"));
+                    AudioManager.Instance.PlaySFX("bong");
                 }
 
                 else{
                     Debug.Log("trash");
                     StartCoroutine(ShowWarning("--- wrong trash can! ---"));
+                    AudioManager.Instance.PlaySFX("bong");
                 }
             }
         }

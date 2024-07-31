@@ -2484,7 +2484,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 3654871337058291528}
-  levelButtonNav: {fileID: 0}
 --- !u!1 &3432327560285748650
 GameObject:
   m_ObjectHideFlags: 0
@@ -2899,6 +2898,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeBarImage: {fileID: 3654871335552780458}
+  volumeType: 1
   volumeSprites:
   - {fileID: -1410807248, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
   - {fileID: -1314589472, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
@@ -3057,7 +3057,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pauseMenu: {fileID: 0}
-  levelButtonNav: {fileID: 0}
 --- !u!1 &3654871335607621167
 GameObject:
   m_ObjectHideFlags: 0
@@ -4997,6 +4996,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeBarImage: {fileID: 3654871337506007353}
+  volumeType: 0
   volumeSprites:
   - {fileID: -1410807248, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
   - {fileID: -1314589472, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
