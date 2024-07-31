@@ -62,6 +62,9 @@ public class LevelButtonNav : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Level2", 0) == 1)
         {
+            AudioManager.Instance.PlaySFX("dink");
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("lv1");
             SceneManager.LoadScene("Level 2");
             currLevel = 2;
         }
@@ -71,6 +74,9 @@ public class LevelButtonNav : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Level3", 0) == 1)
         {
+            AudioManager.Instance.PlaySFX("dink");
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("lv2");
             SceneManager.LoadScene("Level 3");
             currLevel = 3;
         }
@@ -80,6 +86,9 @@ public class LevelButtonNav : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Level4", 0) == 1)
         {
+            AudioManager.Instance.PlaySFX("dink");
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("lv2");
             SceneManager.LoadScene("Level 4");
             currLevel = 4;
         }
@@ -89,6 +98,9 @@ public class LevelButtonNav : MonoBehaviour
     {
         if (PlayerPrefs.GetInt("Level5", 0) == 1)
         {
+            AudioManager.Instance.PlaySFX("dink");
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("lv3");
             SceneManager.LoadScene("Level 5");
             currLevel = 5;
         }
