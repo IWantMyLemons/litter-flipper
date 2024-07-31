@@ -433,6 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeBarImage: {fileID: 426432116}
+  volumeType: 1
   volumeSprites:
   - {fileID: -1410807248, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
   - {fileID: -1314589472, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
@@ -884,6 +885,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   volumeBarImage: {fileID: 665181658}
+  volumeType: 0
   volumeSprites:
   - {fileID: -1410807248, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}
   - {fileID: -1314589472, guid: e92ab2570b8a646448fc97bdbd37849f, type: 3}

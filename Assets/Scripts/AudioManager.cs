@@ -10,17 +10,25 @@ public class AudioManager : MonoBehaviour
     public Sound[] musicSounds, sfxSounds, loopSounds;
     public AudioSource musicSource, sfxSource, loopSource;
 
+    private const string MUSIC_VOLUME_KEY = "MusicVolume";
+    private const string SFX_VOLUME_KEY = "SFXVolume";
+    private const string LOOP_VOLUME_KEY = "LoopVolume";
+
     private void Awake()
     {
         if (Instance == null)
         {
             Instance = this;
             DontDestroyOnLoad(gameObject);
+            LoadVolumeSettings();
         }
         else
         {
             Destroy(gameObject);
+            return;
         }
+
+        LoadVolumeSettings();
     }
 
     private void Start()
@@ -85,17 +93,27 @@ public class AudioManager : MonoBehaviour
         }
     }
 
+    private void LoadVolumeSettings()
+    {
+        musicSource.volume = PlayerPrefs.GetFloat(MUSIC_VOLUME_KEY, 0.5f);
+        sfxSource.volume = PlayerPrefs.GetFloat(SFX_VOLUME_KEY, 0.5f);
+        loopSource.volume = PlayerPrefs.GetFloat(LOOP_VOLUME_KEY, 0.5f);
+    }
+
     public void MusicVolume(float volume)
     {
         musicSource.volume = volume;
+        PlayerPrefs.SetFloat(MUSIC_VOLUME_KEY, volume);
     }
 
      public void FXVolume(float volume)
     {
         sfxSource.volume = volume;
+        PlayerPrefs.SetFloat(SFX_VOLUME_KEY, volume);
     }
      public void LoopVolume(float volume)
     {
         loopSource.volume = volume;
+        PlayerPrefs.SetFloat(LOOP_VOLUME_KEY, volume);
     }
 }

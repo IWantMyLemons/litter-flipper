@@ -1388,6 +1388,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1988908618983140638, guid: fe57c78207beedb4faead4d879241651, type: 3}
   m_PrefabInstance: {fileID: 1238875613}
   m_PrefabAsset: {fileID: 0}
+--- !u!82 &1314595849 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3953001250736139064, guid: 24077901088cad548b660d2ee782521a, type: 3}
+  m_PrefabInstance: {fileID: 192822814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &1378157966 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4746779629779693208, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
@@ -1923,6 +1928,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: daa513404ab148541911b7af684884fb, type: 3}
+--- !u!82 &1741595411 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 3953001252365505927, guid: 24077901088cad548b660d2ee782521a, type: 3}
+  m_PrefabInstance: {fileID: 192822814}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1778026926
 GameObject:
   m_ObjectHideFlags: 0
@@ -2639,6 +2649,10 @@ PrefabInstance:
       propertyPath: bookNavButton
       value: 
       objectReference: {fileID: 1378157966}
+    - target: {fileID: 3654871335552780461, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1314595849}
     - target: {fileID: 3654871335789737617, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2739,6 +2753,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: LEVEL 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3654871337506007335, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1741595411}
     - target: {fileID: 6145086013009124093, guid: 7b0f5ee5e7686814a9df1d5be136b137, type: 3}
       propertyPath: m_IsActive
       value: 1
