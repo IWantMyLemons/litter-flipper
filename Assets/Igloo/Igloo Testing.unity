@@ -151,9 +151,9 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1893767627813635091, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
-      propertyPath: m_Layer
-      value: 6
+    - target: {fileID: 569893611728025922, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2262799659870550369, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
       propertyPath: m_RootOrder
@@ -203,17 +203,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pengu
       objectReference: {fileID: 0}
-    - target: {fileID: 3313284877473572725, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
-      propertyPath: m_Layer
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 7731627568998730213, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
       propertyPath: wenkCollider
       value: 
       objectReference: {fileID: 959638609}
     - target: {fileID: 7731627568998730213, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
       propertyPath: wenkMask.useTriggers
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7731627568998730213, guid: 86fa547d8c9fc594f8f240fdb009cb42, type: 3}
       propertyPath: wenkMask.useLayerMask
