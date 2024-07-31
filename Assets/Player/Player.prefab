@@ -61,7 +61,7 @@ GameObject:
   - component: {fileID: 7329602428813024535}
   - component: {fileID: 6173893910423155620}
   - component: {fileID: 217907775872643787}
-  m_Layer: 6
+  m_Layer: 7
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -121,7 +121,7 @@ MonoBehaviour:
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 128
+      m_Bits: 64
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
