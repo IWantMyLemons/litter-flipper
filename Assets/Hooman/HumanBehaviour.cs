@@ -12,13 +12,13 @@ public class HumanBehaviour : MonoBehaviour
 
     [Tooltip("Minimum time for spawning.")]
     public float minSpawnTime = 5f; // Minimum time for spawning
-    
+
     [Tooltip("Maximum time for spawning.")]
     public float maxSpawnTime = 15f; // Maximum time for spawning
-    
+
     [Tooltip("Walking speed.")]
     public float walkSpeed = 2f; // Walking speed
-    
+
     [Tooltip("Delay before throwing the item.")]
     public float throwDelay = 2f; // Delay before throwing the item
 
@@ -37,7 +37,8 @@ public class HumanBehaviour : MonoBehaviour
     private void Awake()
     {
         hand.SetActive(false);
-        for(int i = 0; i < trashItems.Length; i++){
+        for (int i = 0; i < trashItems.Length; i++)
+        {
             trashItems[i].SetActive(false);
         }
 
@@ -61,6 +62,7 @@ public class HumanBehaviour : MonoBehaviour
             {
                 Transform spawnPoint = spawnPoints[Random.Range(0, spawnPoints.Length)];
                 GameObject newHuman = Instantiate(gameObject, spawnPoint.position, Quaternion.identity);
+                newHuman.layer = 12;
                 HumanBehaviour humanBehaviour = newHuman.GetComponent<HumanBehaviour>();
                 humanBehaviour.StartBehavior();
                 currentHuman = humanBehaviour; // Set the current human reference
@@ -78,7 +80,8 @@ public class HumanBehaviour : MonoBehaviour
         SetHandAnimatorParameters(isWalking: true, isThrowing: false, isSurprised: false, isHaveTrash: true);
     }
 
-    private void SpawnRandomTrash(){
+    private void SpawnRandomTrash()
+    {
         // Destroy the current item if it exists
         if (item != null)
         {
@@ -91,7 +94,7 @@ public class HumanBehaviour : MonoBehaviour
         item.SetActive(true);
         // trashItems[randomIndex].SetActive(true);
         item.GetComponent<Collider2D>().enabled = false; // Disable collision while holding
-   
+
     }
 
     private void Update()
@@ -126,15 +129,16 @@ public class HumanBehaviour : MonoBehaviour
         // Move item to the human's current target position
         item.transform.SetParent(null);
         item.SetActive(true);
+        item.layer = 6;
         item.transform.position = targetPosition;
         item.GetComponent<Collider2D>().enabled = true; // Enable collision after throwing
-        item.GetComponent<Rigidbody2D>().isKinematic = false; 
+        item.GetComponent<Rigidbody2D>().isKinematic = false;
 
-        yield return new WaitForSeconds(0.5f); 
+        yield return new WaitForSeconds(0.5f);
 
         isHoldingItem = false;
         hand.SetActive(false);
-        
+
         SetAnimatorParameters(isWalking: true, isThrowing: false, isSurprised: false, isHaveTrash: false);
         // SetHandAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: false, isHaveTrash: false);
 
