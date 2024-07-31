@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -194,6 +195,7 @@ public class HumanBehaviour : MonoBehaviour
 
     private void SetAnimatorParameters(bool isWalking, bool isThrowing, bool isSurprised, bool isHaveTrash)
     {
+        if (animator.IsUnityNull()) return;
         animator.SetBool("isWalking", isWalking);
         animator.SetBool("isThrowing", isThrowing);
         animator.SetBool("isSurprised", isSurprised);
@@ -202,6 +204,7 @@ public class HumanBehaviour : MonoBehaviour
 
     private void SetHandAnimatorParameters(bool isWalking, bool isThrowing, bool isSurprised, bool isHaveTrash)
     {
+        if (animator.IsUnityNull()) return;
         handAnimator.SetBool("isWalking", isWalking);
         handAnimator.SetBool("isThrowing", isThrowing);
         handAnimator.SetBool("isSurprised", isSurprised);

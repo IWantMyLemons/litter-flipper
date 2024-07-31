@@ -108,10 +108,10 @@ TextureImporter:
       name: Walk with object (16)_0
       rect:
         serializedVersion: 2
-        x: 102
-        y: 3468
-        width: 472
-        height: 566
+        x: 0
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,10 +129,10 @@ TextureImporter:
       name: Walk with object (16)_1
       rect:
         serializedVersion: 2
-        x: 822
-        y: 3472
-        width: 472
-        height: 556
+        x: 720
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,10 +150,10 @@ TextureImporter:
       name: Walk with object (16)_2
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 3476
-        width: 470
-        height: 546
+        x: 1440
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,10 +171,10 @@ TextureImporter:
       name: Walk with object (16)_3
       rect:
         serializedVersion: 2
-        x: 2260
-        y: 3476
-        width: 470
-        height: 546
+        x: 2160
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,10 +192,10 @@ TextureImporter:
       name: Walk with object (16)_4
       rect:
         serializedVersion: 2
-        x: 2980
-        y: 3478
-        width: 468
-        height: 548
+        x: 2880
+        y: 3376
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +213,10 @@ TextureImporter:
       name: Walk with object (16)_5
       rect:
         serializedVersion: 2
-        x: 100
-        y: 2758
-        width: 468
-        height: 554
+        x: 0
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,10 +234,10 @@ TextureImporter:
       name: Walk with object (16)_6
       rect:
         serializedVersion: 2
-        x: 820
-        y: 2756
-        width: 470
-        height: 560
+        x: 720
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -255,10 +255,10 @@ TextureImporter:
       name: Walk with object (16)_7
       rect:
         serializedVersion: 2
-        x: 1542
-        y: 2758
-        width: 470
-        height: 558
+        x: 1440
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -276,10 +276,10 @@ TextureImporter:
       name: Walk with object (16)_8
       rect:
         serializedVersion: 2
-        x: 2262
-        y: 2752
-        width: 474
-        height: 562
+        x: 2160
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -297,10 +297,10 @@ TextureImporter:
       name: Walk with object (16)_9
       rect:
         serializedVersion: 2
-        x: 2986
-        y: 2752
-        width: 474
-        height: 562
+        x: 2880
+        y: 2656
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -318,10 +318,10 @@ TextureImporter:
       name: Walk with object (16)_10
       rect:
         serializedVersion: 2
-        x: 106
-        y: 2030
-        width: 478
-        height: 564
+        x: 0
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -339,10 +339,10 @@ TextureImporter:
       name: Walk with object (16)_11
       rect:
         serializedVersion: 2
-        x: 828
-        y: 2030
-        width: 478
-        height: 566
+        x: 720
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -360,10 +360,10 @@ TextureImporter:
       name: Walk with object (16)_12
       rect:
         serializedVersion: 2
-        x: 1548
-        y: 2028
-        width: 478
-        height: 574
+        x: 1440
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -381,10 +381,10 @@ TextureImporter:
       name: Walk with object (16)_13
       rect:
         serializedVersion: 2
-        x: 2268
-        y: 2028
-        width: 476
-        height: 578
+        x: 2160
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -402,10 +402,10 @@ TextureImporter:
       name: Walk with object (16)_14
       rect:
         serializedVersion: 2
-        x: 2986
-        y: 2028
-        width: 474
-        height: 578
+        x: 2880
+        y: 1936
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -423,10 +423,10 @@ TextureImporter:
       name: Walk with object (16)_15
       rect:
         serializedVersion: 2
-        x: 104
-        y: 1308
-        width: 472
-        height: 570
+        x: 0
+        y: 1216
+        width: 720
+        height: 720
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
