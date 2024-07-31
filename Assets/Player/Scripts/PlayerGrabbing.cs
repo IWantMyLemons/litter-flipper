@@ -84,12 +84,15 @@ public class PlayerGrabbing : MonoBehaviour
         }
 
         // Velocity set to 0 to stop object from flying off hand
-        closest.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        inHand.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        // Disable rigidbody to prevent premature dropping
+        inHand.GetComponent<Rigidbody2D>().simulated = false;
     }
 
     void DropObject()
     {
         inHand.SetParent(transform.parent);
+        inHand.GetComponent<Rigidbody2D>().simulated = true;
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         Vector2 throwDirection = mousePosition - inHand.position;
 
