@@ -141,17 +141,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 42acf94df1ccf984e85391d481a60321, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wenkCollider: {fileID: 0}
+  wenkCollider: {fileID: 569893611728025922}
   wenkMask:
     useTriggers: 0
-    useLayerMask: 0
+    useLayerMask: 1
     useDepth: 0
     useOutsideDepth: 0
     useNormalAngle: 0
     useOutsideNormalAngle: 0
     layerMask:
       serializedVersion: 2
-      m_Bits: 0
+      m_Bits: 4096
     minDepth: 0
     maxDepth: 0
     minNormalAngle: 0
