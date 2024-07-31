@@ -1527,6 +1527,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 436804943801545845, guid: bc0e95779354e89458152ad19bdad163, type: 3}
+      propertyPath: m_Points.Array.data[10].x
+      value: -5.375852
+      objectReference: {fileID: 0}
+    - target: {fileID: 436804943801545845, guid: bc0e95779354e89458152ad19bdad163, type: 3}
+      propertyPath: m_Points.Array.data[10].y
+      value: 8.894765
+      objectReference: {fileID: 0}
+    - target: {fileID: 436804943801545845, guid: bc0e95779354e89458152ad19bdad163, type: 3}
+      propertyPath: m_Points.Array.data[11].x
+      value: -3.5733788
+      objectReference: {fileID: 0}
+    - target: {fileID: 436804943801545845, guid: bc0e95779354e89458152ad19bdad163, type: 3}
+      propertyPath: m_Points.Array.data[11].y
+      value: 9.779134
+      objectReference: {fileID: 0}
     - target: {fileID: 436804943801545847, guid: bc0e95779354e89458152ad19bdad163, type: 3}
       propertyPath: trashCap
       value: 
