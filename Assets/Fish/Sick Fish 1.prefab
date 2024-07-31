@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2448156910499245066}
   - component: {fileID: 4436087833476539521}
   - component: {fileID: 1214220369455352784}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Sick Fish 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
