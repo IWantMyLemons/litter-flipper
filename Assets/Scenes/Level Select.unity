@@ -442,6 +442,7 @@ MonoBehaviour:
   levelThreeButton: {fileID: 149275729}
   levelFourButton: {fileID: 1165017441}
   levelFiveButton: {fileID: 1378631497}
+  restartGame: 0
   levelProgressBar:
   - {fileID: 655508362}
   - {fileID: 1102244312}

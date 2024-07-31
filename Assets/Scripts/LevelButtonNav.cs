@@ -9,12 +9,17 @@ public class LevelButtonNav : MonoBehaviour
     public static LevelButtonNav Instance;
     public static int currLevel;
 
+    public static int nextLevelToUnlock;
+
     // Buttons for each level
     public Button levelOneButton;
     public Button levelTwoButton;
     public Button levelThreeButton;
     public Button levelFourButton;
     public Button levelFiveButton;
+
+    [Tooltip("Restart Game")]
+    public bool restartGame = false;
 
     [SerializeField] GameObject[] levelProgressBar;
     [SerializeField] GameObject[] lockLevel;
@@ -26,7 +31,10 @@ public class LevelButtonNav : MonoBehaviour
 
     void Start()
     {
-        // ResetProgress();
+        if(restartGame == true){
+            ResetProgress();
+
+        }
 
         // Initialize the first level as unlocked if not already done
         if (!PlayerPrefs.HasKey("Level1"))
@@ -117,11 +125,21 @@ public class LevelButtonNav : MonoBehaviour
         return currLevel;
     }
 
+
     // Call this method when a level is completed successfully
     public void UnlockNextLevel()
     {
-        int nextLevelToUnlock = currLevel + 1;
+        nextLevelToUnlock = currLevel + 1;
         PlayerPrefs.SetInt("Level" + nextLevelToUnlock, 1);
+    }
+    
+    public void NextLevelButton()
+    {
+        if (PlayerPrefs.GetInt("Level" + nextLevelToUnlock, 0) == 1)
+        {
+            SceneManager.LoadScene("Level " + nextLevelToUnlock);
+        }
+        currLevel = currLevel + 1;
     }
 
     // Method to update progress bars based on unlocked levels

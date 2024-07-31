@@ -39,12 +39,7 @@ public class PauseButtonNav : MonoBehaviour
 
     public void NextLevelButton()
     {
-        currLevel = LevelButtonNav.Instance.GetCurrLevel();
-        nextLevel = currLevel + 1;
-        if (PlayerPrefs.GetInt("Level" + nextLevel, 0) == 1)
-        {
-            SceneManager.LoadScene("Level " + nextLevel);
-        }
+        LevelButtonNav.Instance.NextLevelButton();
     }
     
 }
