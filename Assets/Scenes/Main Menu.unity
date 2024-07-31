@@ -381,6 +381,18 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: 63b5253e952a55d40adb57101b7664c3, type: 3}
   - name: bong
     clip: {fileID: 8300000, guid: c4706be8690e0be4183e3792a4095586, type: 3}
+  - name: closetrash
+    clip: {fileID: 8300000, guid: c4706be8690e0be4183e3792a4095586, type: 3}
+  - name: splashx
+    clip: {fileID: 8300000, guid: 22bcce906e2a5e046871f18354a5f38e, type: 3}
+  - name: splashv
+    clip: {fileID: 8300000, guid: bd1c57b7943077043a12e9ebfca5d810, type: 3}
+  - name: weewoo
+    clip: {fileID: 8300000, guid: 21ce0c186b98a5f4ab2b878a5b4d443a, type: 3}
+  - name: nocap
+    clip: {fileID: 8300000, guid: cab4da3d2b1deea478b240ca55db966d, type: 3}
+  - name: yacap
+    clip: {fileID: 8300000, guid: 51471f75793d8c046a96260329e616b1, type: 3}
   loopSounds: []
   musicSource: {fileID: 1206587696}
   sfxSource: {fileID: 1788324078}

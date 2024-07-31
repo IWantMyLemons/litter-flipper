@@ -30,6 +30,7 @@ public class TrashCan : MonoBehaviour
             if (category == correctTrashCategory)
             {
                 isCorrectCategory = true;
+                AudioManager.Instance.PlaySFX("closetrash");
                 break;
             }
         }
@@ -40,10 +41,12 @@ public class TrashCan : MonoBehaviour
             {
                 GameManager.Instance.WrongDrop();
                 Destroy(trashItem.gameObject);
+                AudioManager.Instance.PlaySFX("splashx");
             }
             else{
                 GameManager.Instance.CorrectDrop();
                 Destroy(trashItem.gameObject);
+                AudioManager.Instance.PlaySFX("splashv");
             }
         }
         else if (correctTrashCategory == "igloo")
@@ -55,6 +58,7 @@ public class TrashCan : MonoBehaviour
             else{
                 GameManager.Instance.CorrectDrop();
                 //activate igloo behaviour script(?) here
+                AudioManager.Instance.PlaySFX("weewoo");
             }
         }
         else
@@ -96,6 +100,7 @@ public class TrashCan : MonoBehaviour
             if (category == correctTrashCategory)
             {
                 trashCap.SetActive(false);
+                AudioManager.Instance.PlaySFX("nocap");
                 return;
             }
         }
@@ -106,6 +111,7 @@ public class TrashCan : MonoBehaviour
         if (trashCap != null && correctTrashCategory != "sea" && correctTrashCategory != "igloo")
         {
             trashCap.SetActive(true);
+            AudioManager.Instance.PlaySFX("yacap");
         }
     }
 
