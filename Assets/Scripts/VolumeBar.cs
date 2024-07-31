@@ -4,7 +4,7 @@ using UnityEngine.UI;
 public class VolumeBar : MonoBehaviour
 {
     public Image volumeBarImage; // Assign the volume bar Image component in the Inspector
-    public AudioSource audioSource; // Assign your AudioSource in the Inspector
+    //public AudioSource audioSource; // Assign your AudioSource in the Inspector
     public Sprite[] volumeSprites; // Assign the volume sprites in the Inspector
 
     private const float INITIAL_VOLUME_LEVEL = 0.5f;
@@ -15,8 +15,13 @@ public class VolumeBar : MonoBehaviour
     private void Start()
     {
         // Initialize the audio source volume
-        audioSource.volume = volumeLevel;
-        UpdateVolumeBar();
+        if (gameObject.name == "Music Bar"){
+            AudioManager.Instance.musicSource.volume = volumeLevel;
+            UpdateVolumeBar();
+        } else if (gameObject.name == "Sound Bar"){
+            AudioManager.Instance.sfxSource.volume = volumeLevel;
+            UpdateVolumeBar();
+        }
     }
 
     public void IncreaseVolume()
@@ -37,8 +42,13 @@ public class VolumeBar : MonoBehaviour
 
     private void SetVolume(float level)
     {
-        audioSource.volume = level;
-        UpdateVolumeBar();
+        if (gameObject.name == "Music Bar"){
+            AudioManager.Instance.musicSource.volume = level;
+            UpdateVolumeBar();
+        } else if (gameObject.name == "Sound Bar"){
+            AudioManager.Instance.sfxSource.volume = level;
+            UpdateVolumeBar();
+        }
     }
 
     private void UpdateVolumeBar()
