@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3408014885401458}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Normal Trash Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -43,7 +43,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3826416552937170406}
   - component: {fileID: 1514303774807466610}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Normal TrashCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

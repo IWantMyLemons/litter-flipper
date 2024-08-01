@@ -126,7 +126,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1351238317088264126}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Metal Trash Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2521508455578076618}
   - component: {fileID: 67730901803451881}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 'Metal TrashCap '
   m_TagString: Untagged
   m_Icon: {fileID: 0}

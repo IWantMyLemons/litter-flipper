@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8755966594681112448}
   - component: {fileID: 1291617468592072751}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: 'Organic TrashCap '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -93,7 +93,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5683205890981573027}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Organic Trash Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
