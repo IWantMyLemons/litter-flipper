@@ -84,6 +84,7 @@ public class HumanBehaviour : MonoBehaviour
         targetPosition = targetPoints[Random.Range(0, targetPoints.Length)].position;
         SetAnimatorParameters(isWalking: true, isThrowing: false, isSurprised: false, isHaveTrash: true);
         SetHandAnimatorParameters(isWalking: true, isThrowing: false, isSurprised: false, isHaveTrash: true);
+        AudioManager.Instance.PlaySFX("human");
     }
 
     private void SpawnRandomTrash()
@@ -157,6 +158,7 @@ public class HumanBehaviour : MonoBehaviour
         Debug.Log("Wenk called");
         if (!isSurprised)
         {
+            AudioManager.Instance.PlaySFX("gasp");
             isHoldingItem = false;
             yield return new WaitForSeconds(0.2f);
             if(item != null && isHoldingItem){
