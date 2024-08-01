@@ -54,6 +54,7 @@ MonoBehaviour:
   blinkingAccel: 1.4
   blinkingColor: {r: 0.89433956, g: 0.1940547, b: 0.1940547, a: 1}
   is_alive: 1
+  variant: 1
 --- !u!70 &4436087833476539521
 CapsuleCollider2D:
   m_ObjectHideFlags: 0

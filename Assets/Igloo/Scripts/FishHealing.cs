@@ -55,14 +55,15 @@ public class FishHealing : MonoBehaviour
     {
         if (collider.name.ContainsInsensitive("fish")) // honestly a dumb way of checking for fish
         {
-            if (fishQueue.Count < capacity
-            && collider.GetComponent<FishDespawning>().is_alive)
+            var fishDespawning = collider.GetComponent<FishDespawning>();
+            if (fishDespawning != null && fishQueue.Count < capacity
+            && fishDespawning.is_alive)
             {
                 Destroy(collider.gameObject);
 
                 AudioManager.Instance.PlaySFX("weewoo");
 
-                int variant = 1;
+                int variant = fishDespawning.variant;
                 fishQueue.Enqueue(new FishPatient(Time.time + healingTime, variant));
             }
             else

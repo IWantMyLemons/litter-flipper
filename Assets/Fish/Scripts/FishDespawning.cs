@@ -20,6 +20,8 @@ public class FishDespawning : MonoBehaviour
     public Color blinkingColor;
 
     public bool is_alive = true;
+    [Tooltip("Fish Variant")]
+    public int variant;
     float age = 0;
     new SpriteRenderer renderer;
     Animator animator;
