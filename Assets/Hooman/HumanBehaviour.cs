@@ -6,6 +6,7 @@ using UnityEngine.UI;
 
 public class HumanBehaviour : MonoBehaviour
 {
+    public static HumanBehaviour Instance;
     public GameObject hand; // Reference to the hand GameObject
     public GameObject[] trashItems; // The item game object
     public Transform[] spawnPoints; // Array of spawn points for the human
@@ -152,14 +153,16 @@ public class HumanBehaviour : MonoBehaviour
         {
             isSurprised = true;
             SetAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: false);
-            SetHandAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: false);
             hand.SetActive(true);
+            SetHandAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: false);
+            
             if (throwCoroutine != null)
             {
                 StopCoroutine(throwCoroutine);
             }
             yield return new WaitForSeconds(0.5f);
             WalkOut();
+            isSurprised = false;
         }
     }
 

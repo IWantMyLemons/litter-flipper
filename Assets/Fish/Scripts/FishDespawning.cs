@@ -59,5 +59,6 @@ public class FishDespawning : MonoBehaviour
         TrashItem trash = gameObject.AddComponent<TrashItem>();
         trash.trashCategories = new string[1];
         trash.trashCategories[0] = "trash";
+        GameManager.Instance.WrongDrop();
     }
 }

@@ -44,7 +44,7 @@ public class GameManager : MonoBehaviour
         score += 1;
         UpdateUI();
 
-        if (score >= 1){
+        if (score >= 15){
             // You Win!
             Debug.Log("You Win!");
              // You Win Scene Activated
