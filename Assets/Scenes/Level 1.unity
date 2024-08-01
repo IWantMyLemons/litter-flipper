@@ -315,10 +315,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Igloo
       objectReference: {fileID: 0}
-    - target: {fileID: 3857828660310845235, guid: d986fbf16dfee6446a5e74fe03fa2e7e, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d986fbf16dfee6446a5e74fe03fa2e7e, type: 3}
 --- !u!1001 &952224938
