@@ -53,14 +53,15 @@ public class GameManager : MonoBehaviour
             AudioManager.Instance.PlaySFX("yay");
              // You Win Scene Activated
             LevelButtonNav.Instance.UnlockNextLevel();
-            
-            if(LevelButtonNav.Instance.GetCurrLevel() == 5){
-                winButton.SetActive(false);
+            winMenu.SetActive(true);
+            if(LevelButtonNav.Instance.GetCurrLevel() >= 5){
                 winButtonLevel5.SetActive(true);
+                winButton.SetActive(false);
+                
             }
             else{
                 winButtonLevel5.SetActive(false);
-                winMenu.SetActive(true);
+                winButton.SetActive(true);
             }
             Time.timeScale = 0;
         }

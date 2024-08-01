@@ -34,6 +34,7 @@ public class PauseButtonNav : MonoBehaviour
     public void ResumeButton()
     {
         pauseMenu.SetActive(false);
+        AudioManager.Instance.PlaySFX("clop");
         Time.timeScale = 1;
     }
 
