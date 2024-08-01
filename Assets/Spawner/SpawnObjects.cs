@@ -20,6 +20,7 @@ public class SpawnObjects : MonoBehaviour
 
     PolygonCollider2D spawnArea;
     int currSchedule = 0;
+    int currCount = 0;
     float timePassed = 0;
 
     // Start is called before the first frame update
@@ -35,14 +36,15 @@ public class SpawnObjects : MonoBehaviour
         if (timePassed > schedule[currSchedule].delay)
         {
             timePassed -= schedule[currSchedule].delay;
-            if (schedule[currSchedule].count <= 0)
+            if (currCount <= 0)
             {
                 currSchedule = (currSchedule + 1) % schedule.Length;
+                currCount = schedule[currSchedule].count;
             }
             else
             {
                 SpawnObject();
-                schedule[currSchedule].count--;
+                currCount--;
             }
         }
     }
