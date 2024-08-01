@@ -89,7 +89,7 @@ public class HumanBehaviour : MonoBehaviour
     private void SpawnRandomTrash()
     {
         // Destroy the current item if it exists
-        if (item != null)
+        if (item != null && isHoldingItem)
         {
             Destroy(item);
         }
@@ -157,9 +157,12 @@ public class HumanBehaviour : MonoBehaviour
         Debug.Log("Wenk called");
         if (!isSurprised)
         {
-            Destroy(item);
             isHoldingItem = false;
-
+            yield return new WaitForSeconds(0.2f);
+            if(item != null && isHoldingItem){
+                Destroy(item);
+            }
+            
             isSurprised = true;
             SetAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: true);
             hand.SetActive(true);
