@@ -1616,10 +1616,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 10
       objectReference: {fileID: 0}
-    - target: {fileID: 441246655258051342, guid: eeff007a38b74d7409e00fd04af7c9e8, type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
     - target: {fileID: 441246655416165855, guid: eeff007a38b74d7409e00fd04af7c9e8, type: 3}
       propertyPath: m_Layer
       value: 10

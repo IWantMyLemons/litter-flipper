@@ -83,7 +83,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 14
   m_Sprite: {fileID: 928820103, guid: 0f0908ac757eebe4c9555faee72ac748, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -205,7 +205,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 7
+  m_SortingOrder: 16
   m_Sprite: {fileID: -913119985, guid: cde28a95b06823f43a9b54ca73e208dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -301,10 +301,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 124029792776991639, guid: 597146e33ab13834db6df0c34a66c5ce, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 597146e33ab13834db6df0c34a66c5ce, type: 3}
 --- !u!4 &681953708273982637 stripped
@@ -319,10 +315,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441246655258051328}
     m_Modifications:
-    - target: {fileID: 4017040910132193889, guid: 346909ae4486de04d9b0ca5e70fae519, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 4017040910132193890, guid: 346909ae4486de04d9b0ca5e70fae519, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -437,10 +429,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2590374889080454171, guid: 4a7389e0ca232d34f972604b9031cac6, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 2590374889080454175, guid: 4a7389e0ca232d34f972604b9031cac6, type: 3}
       propertyPath: m_Name
       value: Plastic_2
@@ -467,10 +455,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 441246655258051328}
     m_Modifications:
-    - target: {fileID: 711520890763321625, guid: 479da660987563148991e4d1de714877, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 711520890763321626, guid: 479da660987563148991e4d1de714877, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -611,7 +595,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3957047927213127166, guid: 7f986a03ac98d3743843f9806aef6f09, type: 3}
       propertyPath: m_SortingOrder
-      value: 6
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7f986a03ac98d3743843f9806aef6f09, type: 3}
@@ -683,10 +667,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1988908618983140639, guid: fe57c78207beedb4faead4d879241651, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fe57c78207beedb4faead4d879241651, type: 3}
 --- !u!4 &2875708788875549459 stripped
@@ -757,10 +737,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 698197849892076690, guid: cdea639a58ea8b849a2fa98000942990, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
-      objectReference: {fileID: 0}
     - target: {fileID: 698197849892076702, guid: cdea639a58ea8b849a2fa98000942990, type: 3}
       propertyPath: m_Name
       value: Kola_2
@@ -798,10 +774,6 @@ PrefabInstance:
     - target: {fileID: 6535639470238781665, guid: 95e2d801d19985b4eac909c97b681820, type: 3}
       propertyPath: m_IsActive
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6535639470238781677, guid: 95e2d801d19985b4eac909c97b681820, type: 3}
-      propertyPath: m_SortingOrder
-      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6535639470238781678, guid: 95e2d801d19985b4eac909c97b681820, type: 3}
       propertyPath: m_RootOrder
