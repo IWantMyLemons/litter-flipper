@@ -33,7 +33,7 @@ public class PlayerWenk : MonoBehaviour
             if (collisions[i].TryGetComponent(out HumanBehaviour human))
             {
                 Debug.Log("WENK");
-                StartCoroutine(HumanBehaviour.Instance.Wenk());
+                StartCoroutine(human.Wenk());
             }
         }
 

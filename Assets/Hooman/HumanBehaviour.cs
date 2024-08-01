@@ -19,16 +19,18 @@ public class HumanBehaviour : MonoBehaviour
     public float maxSpawnTime = 15f; // Maximum time for spawning
 
     [Tooltip("Walking speed.")]
-    public float walkSpeed = 2f; // Walking speed
+    public float walkSpeed = 4f; // Walking speed
 
     [Tooltip("Delay before throwing the item.")]
-    public float throwDelay = 2f; // Delay before throwing the item
+    public float throwDelay = 1f; // Delay before throwing the item
 
     private bool isSurprised = false;
     private bool isHoldingItem = false;
+    private bool hasWalkedOut = false;
     private bool hasRotated = false;
     private Vector3 targetPosition;
     private Coroutine throwCoroutine;
+    private Coroutine moveCoroutine;
 
     private Animator animator;
     private Animator handAnimator;
@@ -38,6 +40,8 @@ public class HumanBehaviour : MonoBehaviour
 
     private void Awake()
     {
+        Instance = this;
+
         hand.SetActive(false);
         for (int i = 0; i < trashItems.Length; i++)
         {
@@ -94,18 +98,13 @@ public class HumanBehaviour : MonoBehaviour
         int randomIndex = Random.Range(0, trashItems.Length);
         item = Instantiate(trashItems[randomIndex], hand.transform);
         item.SetActive(true);
-        // trashItems[randomIndex].SetActive(true);
         item.GetComponent<Collider2D>().enabled = false; // Disable collision while holding
 
     }
 
     private void Update()
     {
-        if (isSurprised)
-        {
-            WalkOut();
-        }
-        else if (isHoldingItem)
+        if (isHoldingItem)
         {
             WalkTowardsTarget();
         }
@@ -113,6 +112,8 @@ public class HumanBehaviour : MonoBehaviour
 
     private void WalkTowardsTarget()
     {
+        if (this == null) return;
+
         transform.position = Vector3.MoveTowards(transform.position, targetPosition, walkSpeed * Time.deltaTime);
 
         if (Vector3.Distance(transform.position, targetPosition) < 0.2f && throwCoroutine == null)
@@ -127,14 +128,18 @@ public class HumanBehaviour : MonoBehaviour
         SetHandAnimatorParameters(isWalking: false, isThrowing: true, isSurprised: false, isHaveTrash: true);
 
         yield return new WaitForSeconds(throwDelay);
+        
+        if (this == null) yield break;
 
-        // Move item to the human's current target position
-        item.transform.SetParent(null);
-        item.SetActive(true);
-        item.layer = 6;
-        item.transform.position = targetPosition;
-        item.GetComponent<Collider2D>().enabled = true; // Enable collision after throwing
-        item.GetComponent<Rigidbody2D>().isKinematic = false;
+        if(item != null){
+            // Move item to the human's current target position
+            item.transform.SetParent(null);
+            item.SetActive(true);
+            item.layer = 6;
+            item.transform.position = targetPosition;
+            item.GetComponent<Collider2D>().enabled = true; // Enable collision after throwing
+            item.GetComponent<Rigidbody2D>().isKinematic = false;
+        }
 
         yield return new WaitForSeconds(0.5f);
 
@@ -149,51 +154,78 @@ public class HumanBehaviour : MonoBehaviour
 
     public IEnumerator Wenk()
     {
+        Debug.Log("Wenk called");
         if (!isSurprised)
         {
+            Destroy(item);
+            isHoldingItem = false;
+
             isSurprised = true;
-            SetAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: false);
+            SetAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: true);
             hand.SetActive(true);
-            SetHandAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: false);
+            SetHandAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: true, isHaveTrash: true);
             
             if (throwCoroutine != null)
             {
                 StopCoroutine(throwCoroutine);
             }
-            yield return new WaitForSeconds(0.5f);
-            WalkOut();
-            isSurprised = false;
+            
+            // if (moveCoroutine != null)
+            // {
+            //     StopCoroutine(moveCoroutine);
+            //     moveCoroutine = null;
+            // }
+
+            yield return new WaitForSeconds(1f);
+
+            if (this != null)
+            {
+                Debug.Log("Wenk WalkOut Called");
+                hand.SetActive(false);
+                isSurprised = false;
+                WalkOut();
+                
+            }
         }
     }
 
     private void WalkOut()
     {
+        Debug.Log("WalkOut called");
+        if (hasWalkedOut) return; // Prevent repeated calls
+
         if (!hasRotated)
         {
             animator.transform.Rotate(0, 180, 0);
             hasRotated = true;
         }
 
-        // Set the target position to be one of the spawn points, or a custom position outside the map
         Vector3 outOfMapPosition = spawnPoints[Random.Range(0, spawnPoints.Length)].position;
 
         SetAnimatorParameters(isWalking: true, isThrowing: false, isSurprised: false, isHaveTrash: false);
-        hand.SetActive(false);
-        // SetHandAnimatorParameters(isWalking: false, isThrowing: false, isSurprised: false, isHaveTrash: false);
-
         StartCoroutine(MoveToPosition(outOfMapPosition));
+        // hasWalkedOut = true;
     }
 
     private IEnumerator MoveToPosition(Vector3 position)
     {
         while (Vector3.Distance(transform.position, position) > 0.1f)
         {
+            if (this == null)
+            {
+                yield break;
+            }
             transform.position = Vector3.MoveTowards(transform.position, position, walkSpeed * Time.deltaTime);
             yield return null;
         }
 
-        Destroy(gameObject);
-        currentHuman = null; // Clear the current human reference when the human is destroyed
+        if(this != null)
+        {
+            // StopAllCoroutines();
+            Destroy(gameObject);
+            currentHuman = null; // Clear the current human reference when the human is destroyed
+        }
+
     }
 
     private void SetAnimatorParameters(bool isWalking, bool isThrowing, bool isSurprised, bool isHaveTrash)
