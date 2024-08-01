@@ -691,7 +691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[0].delay
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[1].count
@@ -707,7 +707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[2].delay
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[3].count
@@ -715,7 +715,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[3].delay
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
