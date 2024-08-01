@@ -39,6 +39,7 @@ public class FishDespawning : MonoBehaviour
             renderer.color = Color.white;
             is_alive = false;
             animator.SetBool("is_alive", false);
+            GameManager.Instance.WrongDrop();
             return;
         }
         age += Time.deltaTime;
