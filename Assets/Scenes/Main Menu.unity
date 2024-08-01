@@ -406,7 +406,7 @@ MonoBehaviour:
   - name: drop
     clip: {fileID: 8300000, guid: 93bc8572a8a1a9f43aceaac337023c68, type: 3}
   - name: human
-    clip: {fileID: 8300000, guid: 13890ea57f1dfef4e8b3c5029d3a7bd0, type: 3}
+    clip: {fileID: 8300000, guid: 704d58bf51b8124498f559164383fc94, type: 3}
   - name: gasp
     clip: {fileID: 8300000, guid: b2f551274bab1b44391a4e44ac1ec1aa, type: 3}
   loopSounds: []
