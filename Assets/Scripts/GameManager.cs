@@ -25,6 +25,10 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] GameObject loseMenu;
 
+    [Tooltip("Minimum time for spawning.")]
+    public int targetScore = 15;
+
+
     void Awake()
     {
         Instance = this;
@@ -35,7 +39,6 @@ public class GameManager : MonoBehaviour
         UpdateUI();
         loseMenu.SetActive(false);
         winMenu.SetActive(false);
-        currLevel = LevelButtonNav.currLevel;
         BookNavButton.Instance.BookOpenButton();
     }
 
@@ -44,7 +47,7 @@ public class GameManager : MonoBehaviour
         score += 1;
         UpdateUI();
 
-        if (score >= 15){
+        if (score >= targetScore){
             // You Win!
             Debug.Log("You Win!");
             AudioManager.Instance.PlaySFX("yay");
