@@ -983,9 +983,17 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 847872356}
     m_Modifications:
+    - target: {fileID: 2206850630537461579, guid: f108a9e3e038b9a4bac0d8e756b9589a, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 5217810418035652078, guid: f108a9e3e038b9a4bac0d8e756b9589a, type: 3}
       propertyPath: m_Name
       value: Organic Trash Bin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217810418035652078, guid: f108a9e3e038b9a4bac0d8e756b9589a, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 5683205890981573027, guid: f108a9e3e038b9a4bac0d8e756b9589a, type: 3}
       propertyPath: m_RootOrder
@@ -1180,7 +1188,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 847872356}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Trash Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1450,6 +1458,14 @@ PrefabInstance:
     - target: {fileID: 5489444740454813437, guid: 1114c582a0e78914ea24955705404120, type: 3}
       propertyPath: m_Name
       value: Plastic Trash Bin
+      objectReference: {fileID: 0}
+    - target: {fileID: 5489444740454813437, guid: 1114c582a0e78914ea24955705404120, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6886525048014545634, guid: 1114c582a0e78914ea24955705404120, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1114c582a0e78914ea24955705404120, type: 3}
@@ -2583,6 +2599,14 @@ PrefabInstance:
     - target: {fileID: 6049160409828833568, guid: 5de9d46c5a7e2614c9e7ce951f23fa79, type: 3}
       propertyPath: m_Name
       value: Metal Trash Bin
+      objectReference: {fileID: 0}
+    - target: {fileID: 6049160409828833568, guid: 5de9d46c5a7e2614c9e7ce951f23fa79, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 6682659740514274350, guid: 5de9d46c5a7e2614c9e7ce951f23fa79, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5de9d46c5a7e2614c9e7ce951f23fa79, type: 3}
