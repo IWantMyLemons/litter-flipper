@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2448156910499245066}
   - component: {fileID: 4436087833476539521}
   - component: {fileID: 1214220369455352784}
+  - component: {fileID: 4207821369175867516}
   m_Layer: 6
   m_Name: Sick Fish 1
   m_TagString: Untagged
@@ -90,6 +91,20 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!114 &4207821369175867516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3239664633109041322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dde9f8fba6683d4e81f7968a8b05c55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trashCategories:
+  - igloo
 --- !u!1 &7428185604187620948
 GameObject:
   m_ObjectHideFlags: 0

@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Healed Fish 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4207821369175867516, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: trashCategories.Array.data[0]
+      value: sea
+      objectReference: {fileID: 0}
     - target: {fileID: 7186655323946062071, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
       propertyPath: m_Controller
       value: 
@@ -65,22 +69,3 @@ PrefabInstance:
       objectReference: {fileID: -466826196, guid: 1c73d876ee513a843944eee04ebcec19, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
---- !u!1 &3384378377927035653 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3239664633109041322, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
-  m_PrefabInstance: {fileID: 144717607269227439}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &3008947047831321063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3384378377927035653}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0dde9f8fba6683d4e81f7968a8b05c55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  trashCategories:
-  - sea
