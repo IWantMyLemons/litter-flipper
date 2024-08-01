@@ -56,6 +56,11 @@ public class FishDespawning : MonoBehaviour
         renderer.color = Color.white;
         is_alive = false;
         animator.SetBool("is_alive", false);
+        TrashItem trashItem = GetComponent<TrashItem>();
+        if (trashItem != null)
+        {
+            Destroy(trashItem);
+        }
         TrashItem trash = gameObject.AddComponent<TrashItem>();
         trash.trashCategories = new string[2];
         trash.trashCategories[0] = "trash";
