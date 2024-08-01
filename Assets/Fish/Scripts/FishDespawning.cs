@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using Unity.Collections;
 using UnityEngine;
 
@@ -36,9 +37,7 @@ public class FishDespawning : MonoBehaviour
 
         if (age > lifetime) // run out of time
         {
-            renderer.color = Color.white;
-            is_alive = false;
-            animator.SetBool("is_alive", false);
+            Die();
             return;
         }
         age += Time.deltaTime;
@@ -50,5 +49,15 @@ public class FishDespawning : MonoBehaviour
                 MathF.Pow(MathF.Sin(Mathf.Pow(age - blinkingPercentage * lifetime, blinkingAccel) * MathF.PI * blinkingSpeed), 2)
             );
         }
+    }
+
+    private void Die()
+    {
+        renderer.color = Color.white;
+        is_alive = false;
+        animator.SetBool("is_alive", false);
+        TrashItem trash = gameObject.AddComponent<TrashItem>();
+        trash.trashCategories = new string[1];
+        trash.trashCategories[0] = "trash";
     }
 }
