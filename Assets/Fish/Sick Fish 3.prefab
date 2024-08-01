@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: variant
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2448156910499245066, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
+      propertyPath: lifetime
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3239664633109041322, guid: de1a2cbfa3f5a3b4c9d4ea9cd357b2bb, type: 3}
       propertyPath: m_Name
       value: Sick Fish 3

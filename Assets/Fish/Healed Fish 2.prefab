@@ -55,6 +55,10 @@ PrefabInstance:
       propertyPath: variant
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 2592870900197980069, guid: 94d98a62111e2b148badc326ee1620e9, type: 3}
+      propertyPath: lifetime
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 3384378377927035653, guid: 94d98a62111e2b148badc326ee1620e9, type: 3}
       propertyPath: m_Name
       value: Healed Fish 2

@@ -48,7 +48,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dfadc2f0101f51c42a85d12aafb6474d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lifetime: 10
+  lifetime: 15
   blinkingPercentage: 0.5
   blinkingSpeed: 1
   blinkingAccel: 1.4
