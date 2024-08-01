@@ -1105,7 +1105,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.size
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: toSpawn.Array.data[0]
@@ -1137,11 +1137,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[2].count
-      value: 10
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
       propertyPath: schedule.Array.data[2].delay
-      value: 5
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
+      propertyPath: schedule.Array.data[3].count
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8507765915549300598, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
+      propertyPath: schedule.Array.data[3].delay
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: be09bdf188aad4546a2d8584c5e025b9, type: 3}
