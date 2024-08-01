@@ -382,7 +382,7 @@ MonoBehaviour:
   - name: bong
     clip: {fileID: 8300000, guid: c4706be8690e0be4183e3792a4095586, type: 3}
   - name: closetrash
-    clip: {fileID: 8300000, guid: add78687dcb2b0e45b4eab1a276a869d, type: 3}
+    clip: {fileID: 8300000, guid: 53e9f12e508147443a57eea1e619a9cd, type: 3}
   - name: splashx
     clip: {fileID: 8300000, guid: 22bcce906e2a5e046871f18354a5f38e, type: 3}
   - name: splashv
