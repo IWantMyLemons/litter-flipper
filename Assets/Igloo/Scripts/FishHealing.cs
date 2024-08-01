@@ -60,6 +60,8 @@ public class FishHealing : MonoBehaviour
             {
                 Destroy(collider.gameObject);
 
+                AudioManager.Instance.PlaySFX("weewoo");
+
                 int variant = 1;
                 fishQueue.Enqueue(new FishPatient(Time.time + healingTime, variant));
             }

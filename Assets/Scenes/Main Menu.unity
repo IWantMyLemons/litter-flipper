@@ -382,7 +382,7 @@ MonoBehaviour:
   - name: bong
     clip: {fileID: 8300000, guid: c4706be8690e0be4183e3792a4095586, type: 3}
   - name: closetrash
-    clip: {fileID: 8300000, guid: c4706be8690e0be4183e3792a4095586, type: 3}
+    clip: {fileID: 8300000, guid: a2f503a7d5cfacb4ab2770caf0227e9a, type: 3}
   - name: splashx
     clip: {fileID: 8300000, guid: 22bcce906e2a5e046871f18354a5f38e, type: 3}
   - name: splashv
@@ -393,6 +393,18 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: cab4da3d2b1deea478b240ca55db966d, type: 3}
   - name: yacap
     clip: {fileID: 8300000, guid: 51471f75793d8c046a96260329e616b1, type: 3}
+  - name: yay
+    clip: {fileID: 8300000, guid: e9404e773567f3648ba4920e45794e4a, type: 3}
+  - name: aww
+    clip: {fileID: 8300000, guid: a0f35727e69a32a40bffb09082ca3453, type: 3}
+  - name: fish
+    clip: {fileID: 8300000, guid: 648aab7a116295c45905fcf2b9a7b4e5, type: 3}
+  - name: wenk
+    clip: {fileID: 8300000, guid: 0b0d638b86670364a9d3d1209328a61f, type: 3}
+  - name: grab
+    clip: {fileID: 8300000, guid: 190b2d0600fcba343911dc7c85442b3a, type: 3}
+  - name: drop
+    clip: {fileID: 8300000, guid: 93bc8572a8a1a9f43aceaac337023c68, type: 3}
   loopSounds: []
   musicSource: {fileID: 1206587696}
   sfxSource: {fileID: 1788324078}

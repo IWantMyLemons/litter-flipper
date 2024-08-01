@@ -63,5 +63,10 @@ public class SpawnObjects : MonoBehaviour
             randomPoint.y = Mathf.Lerp(minBounds.y, maxBounds.y, Random.value);
         } while (!spawnArea.OverlapPoint(randomPoint));
         Instantiate(toSpawn[Random.Range(0, toSpawn.Length)], randomPoint, Quaternion.identity);
+
+        if(gameObject.name=="Fish Spawner")
+        {
+            AudioManager.Instance.PlaySFX("fish");
+        }
     }
 }

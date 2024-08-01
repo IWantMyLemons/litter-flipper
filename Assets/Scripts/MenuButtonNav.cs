@@ -28,10 +28,12 @@ public class MenuButtonNav : MonoBehaviour
 
     public void CreditsButton()
     {
+        AudioManager.Instance.PlaySFX("dink");
         creditMenu.SetActive(true);
     }
     public void CloseCreditsButton()
     {
+        AudioManager.Instance.PlaySFX("clop");
         creditMenu.SetActive(false);
     }
 }

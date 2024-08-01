@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
         if (score >= 15){
             // You Win!
             Debug.Log("You Win!");
+            AudioManager.Instance.PlaySFX("yay");
              // You Win Scene Activated
             LevelButtonNav.Instance.UnlockNextLevel();
             winMenu.SetActive(true);
@@ -70,6 +71,7 @@ public class GameManager : MonoBehaviour
         {
             // Game Over
             Debug.Log("Game Over!");
+            AudioManager.Instance.PlaySFX("aww");
             loseMenu.SetActive(true);
             Time.timeScale = 0;
         }

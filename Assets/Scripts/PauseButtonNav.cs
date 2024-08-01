@@ -40,6 +40,17 @@ public class PauseButtonNav : MonoBehaviour
     public void NextLevelButton()
     {
         LevelButtonNav.Instance.NextLevelButton();
+
+        if(LevelButtonNav.currLevel == 3){
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("lv2");
+        } else if(LevelButtonNav.currLevel == 5){
+            AudioManager.Instance.StopMusic();
+            AudioManager.Instance.PlayMusic("lv3");
+        }
     }
     
 }
+
+
+            

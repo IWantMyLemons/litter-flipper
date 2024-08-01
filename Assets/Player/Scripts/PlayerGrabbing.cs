@@ -49,6 +49,8 @@ public class PlayerGrabbing : MonoBehaviour
         int n_collisions = grabCollider.OverlapCollider(contactFilter, collisions);
         if (n_collisions == 0) return;
 
+        AudioManager.Instance.PlaySFX("grab");
+
         Collider2D closest = collisions[0];
         for (int i = 1; i < n_collisions; i++)
         {
@@ -91,6 +93,8 @@ public class PlayerGrabbing : MonoBehaviour
 
     void DropObject()
     {
+        AudioManager.Instance.PlaySFX("drop");
+        
         inHand.SetParent(transform.parent);
         inHand.GetComponent<Rigidbody2D>().simulated = true;
         Vector3 mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);

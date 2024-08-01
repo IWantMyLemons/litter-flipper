@@ -38,5 +38,6 @@ public class PlayerWenk : MonoBehaviour
         }
 
         animator.SetTrigger("isWenk");
+        AudioManager.Instance.PlaySFX("wenk");
     }
 }
