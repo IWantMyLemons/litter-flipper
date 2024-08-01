@@ -55,16 +55,14 @@ public class SpawnObjects : MonoBehaviour
         // Currently objects are spawned by choosing a random point and checking whether its inside
         // this should still be performant since it usually lands after 1-2 iterations
         Vector2 randomPoint;
-        int iterations = 0;
         do
         {
-            iterations++;
             randomPoint.x = Mathf.Lerp(minBounds.x, maxBounds.x, Random.value);
             randomPoint.y = Mathf.Lerp(minBounds.y, maxBounds.y, Random.value);
         } while (!spawnArea.OverlapPoint(randomPoint));
         Instantiate(toSpawn[Random.Range(0, toSpawn.Length)], randomPoint, Quaternion.identity);
 
-        if(gameObject.name=="Fish Spawner")
+        if (gameObject.name == "Fish Spawner")
         {
             AudioManager.Instance.PlaySFX("fish");
         }
