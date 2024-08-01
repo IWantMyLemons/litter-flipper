@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7907620407183041131}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Inorganic Trash Bin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +160,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1170206300109767992}
   - component: {fileID: 2041190887634496734}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Inorganic TrashCap
   m_TagString: Untagged
   m_Icon: {fileID: 0}

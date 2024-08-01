@@ -227,9 +227,9 @@ public class BookNavButton : MonoBehaviour
             pageNum--;
             if (pageNum < 0)
             {
-                FishInfoButton();
-                pageNum = fishPages.Length - 1;
-                fishPages[pageNum].SetActive(true);
+                InfoButton();
+                pageNum = infoPages.Length - 1;
+                infoPages[pageNum].SetActive(true);
             }
             else
             {
@@ -242,9 +242,9 @@ public class BookNavButton : MonoBehaviour
             pageNum--;
             if (pageNum < 0)
             {
-                InfoButton();
-                pageNum = infoPages.Length - 1;
-                infoPages[pageNum].SetActive(true);
+                TrashInfoButton();
+                pageNum = trashPages.Length - 1;
+                trashPages[pageNum].SetActive(true);
             }
             else
             {
