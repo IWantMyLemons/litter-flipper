@@ -159,6 +159,7 @@ public class BookNavButton : MonoBehaviour
 
     public void NextPageButton()
     {
+        AudioManager.Instance.PlaySFX("page");
         if (infoPage.activeSelf)
         {
             infoPages[pageNum].SetActive(false);
@@ -205,6 +206,7 @@ public class BookNavButton : MonoBehaviour
 
     public void PrevPageButton()
     {
+        AudioManager.Instance.PlaySFX("page");
         if (infoPage.activeSelf)
         {
             infoPages[pageNum].SetActive(false);
