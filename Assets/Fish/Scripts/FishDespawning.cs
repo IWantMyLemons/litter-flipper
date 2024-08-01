@@ -57,8 +57,9 @@ public class FishDespawning : MonoBehaviour
         is_alive = false;
         animator.SetBool("is_alive", false);
         TrashItem trash = gameObject.AddComponent<TrashItem>();
-        trash.trashCategories = new string[1];
+        trash.trashCategories = new string[2];
         trash.trashCategories[0] = "trash";
+        trash.trashCategories[1] = "organic";
         GameManager.Instance.WrongDrop();
     }
 }
